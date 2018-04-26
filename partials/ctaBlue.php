@@ -1,0 +1,59 @@
+<div class="jumbotron">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-7 d-flex align-items-center">
+
+				<div class="">
+
+					<h1>
+						The Future of <br>
+						Life Insurance is Here
+					</h1>
+
+					<p class="lead">Introducing the concept of a mortality curve specific to individuals.</p>
+
+					<div class="btn-group">
+						<a class="btn transparent-white medium hover-colorful mt-30" href="#">Watch The Video</a>
+						<a class="btn transparent-white medium hover-colorful mt-30" href="#">Read About Epigenetics</a>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="col-12 col-md-5 d-flex align-items-center">
+
+				<div class="">
+					<div class="box-signup-form bs-form-1 anim-movebottom-seq" data-move-distance="80">
+						<h3>Get Your Free Quote</h3>
+						<p>You are one step away from joining the future</p>
+						<form id="signup-form-1" novalidate="novalidate">
+							<div class="sf1-notifications">
+								<div class="sf1-notifications-content"></div>
+							</div>
+							<!-- .sf1-notifications end -->
+							<div class="form-group">
+								<input type="text" name="sf1Name" id="sf1Name" class="form-control" placeholder="Your Name" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+							</div>
+							<!-- .form-group end -->
+							<div class="form-group">
+								<input type="text" name="sf1Email" id="sf1Email" class="form-control" placeholder="Your Email">
+							</div>
+							<!-- .form-group end -->
+							<div class="form-group">
+								<input type="text" name="sf1PhoneNum" id="sf1PhoneNum" class="form-control" placeholder="Phone Number">
+							</div>
+							<!-- .form-group end -->
+							<div class="form-group">
+								<input type="submit" class="form-control" value="Get Your Free Quote">
+							</div>
+							<!-- .form-group end -->
+						</form>
+						<!-- #signup-form-1 end -->
+					</div>
+					<!-- .box-signup-form end -->
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
