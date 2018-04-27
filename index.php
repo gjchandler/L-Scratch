@@ -18,9 +18,9 @@
   <?php  
   include 'partials/topNav.php'; 
   include 'partials/ctaBlue.php'; 
-  include 'partials/ourServices.php'; 
-  include 'partials/videoSection.php';
-  include 'partials/viewServices.php';
+  include 'partials/validation.php'; 
+  include 'partials/press2.php';
+  include 'partials/overpay.php';
   ?>
   
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
