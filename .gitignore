@@ -1,2 +1,4 @@
-node_modules
-sftp-config
+#No modules
+*.node_modules
+#No SFTP info
+*.sftp-config
