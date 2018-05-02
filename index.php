@@ -24,8 +24,22 @@
   include 'partials/overpay.php';
   include 'partials/rateTable.php';
   include 'partials/qualifyChart.php';
+  include 'partials/genetics.php';
+  include 'partials/geneTable.php';
+   include 'partials/age.php';
+   include 'partials/headline.php';
+   include 'partials/venn.php';
+   include 'partials/mortality.php';
+   include 'partials/partnered.php';
+   include 'partials/imgFullWidth.php';
+   include 'partials/lotsaDots.php';
+   include 'partials/sequencing.php';
+   include 'partials/team.php';
+   include 'partials/mission.php';
+   include 'partials/ctaWhite.php';
+   include 'partials/footer.php';
   ?>
-  
+
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="js/bootstrap.js"></script>
 

@@ -1,4 +1,4 @@
-#No modules
-*.node_modules
-#No SFTP info
-*.sftp-config
+.DS_Store
+*.sass-cache*
+*.log
+*sftp-config.*

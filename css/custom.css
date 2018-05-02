@@ -1,0 +1,11 @@
+img{
+	max-width:100%;
+}
+
+.footer .card-columns{
+column-count:4;
+}
+
+.footer .card{
+	background-color:transparent;
+}
