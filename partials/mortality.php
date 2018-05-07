@@ -4,7 +4,9 @@
 	
 	<div class="row">
 
-		<div class="col-sm-12 col-md-5 col-lg-5 d-flex">
+		<div class="col-sm-12 col-md-5 col-lg-5 d-flex align-items-center justify-content-center">
+
+			<div>
 
 <h4>Methylation (M) Factor Distribution</h4>
 
@@ -19,6 +21,8 @@
 					facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed
 					diam nonummy nibh euismod tincidunt ut laoreet dolore 
 				</p>
+
+				</div>
 
 		</div>
 

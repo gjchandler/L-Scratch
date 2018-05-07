@@ -1,4 +1,4 @@
-<div class="jumbotron">
+<div class="jumbotron  d-flex align-items-center">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-7 d-flex align-items-center">
