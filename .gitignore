@@ -1,2 +1,17 @@
-#ignore the SFTP config
-*sftp-config.*
+.sass-cache
+
+bower_components
+
+node_modules
+
+sftp-config.json
+
+understrap.zip
+
+dist
+
+dist-product
+
+npm-debug.log
+
+/vendor/
