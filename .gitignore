@@ -1,4 +1,2 @@
-.DS_Store
-*.sass-cache*
-*.log
+#ignore the SFTP config
 *sftp-config.*

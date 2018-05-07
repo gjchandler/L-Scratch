@@ -17,7 +17,8 @@
 <body>
 
   <?php  
-  include 'partials/topNav.php'; 
+  include 'partials/topNavSticky.php'; 
+  //include 'partials/topNav.php'; 
   include 'partials/ctaBlue.php'; 
   include 'partials/validation.php'; 
   include 'partials/press2.php';
@@ -42,6 +43,7 @@
 
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 </html>
