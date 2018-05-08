@@ -1,5 +1,7 @@
 <!-- Begin Qualify Chart-->
 
+<div class="qualify-chart">
+
 <div class="container">
 
 	<div class="row">
@@ -21,6 +23,8 @@
 		</div>
 
 	</div>
+
+</div>
 
 </div>
 

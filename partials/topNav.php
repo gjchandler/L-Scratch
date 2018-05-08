@@ -1,5 +1,7 @@
 <!-- Begin Top Nav -->
 
+<div class="top-nav">
+
 <div class="container">
 
   <nav class="navbar navbar-expand-lg">
@@ -57,6 +59,8 @@
     </div>
 
   </nav>
+
+</div>
 
 </div>
 

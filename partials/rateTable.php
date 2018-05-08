@@ -1,5 +1,7 @@
 <!-- Begin Rate Table -->
 
+<div class="rate-table">
+
 <div class="container">
 
 	<div class="row">
@@ -88,7 +90,9 @@
 		</div>
 
 	</div>
-	
+
+</div>
+
 </div>
 
 <!-- End Rate Table -->	

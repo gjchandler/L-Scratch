@@ -1,7 +1,9 @@
 <!-- Begin Services -->
 
-<div class="container-fluid services">
-    
+<div class="services">
+
+<div class="container-fluid">
+
     <div class="row no-gutter text-center">
 
         <div class="col-md-4 bg-gray">
@@ -75,9 +77,11 @@
             </div>
 
         </div>
-        
+
     </div>
-    
+
+</div>
+
 </div>
 
 <!-- End Services -->    

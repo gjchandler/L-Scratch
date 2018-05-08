@@ -1,5 +1,7 @@
 <!-- Begin CTA Blue-->
 
+<div class="cta-blue">
+
 <div class="jumbotron  d-flex align-items-center">
 
 	<div class="container">
@@ -38,7 +40,9 @@
 		</div>
 
 	</div>
-	
+
+</div>
+
 </div>
 
 <!-- End CTA Blue -->	

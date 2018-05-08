@@ -1,5 +1,7 @@
 <!-- Begin Validation -->
 
+<div class="validation">
+
 	<div class="container">
 
 		<div class="row">
@@ -11,6 +13,8 @@
 			</div>
 			
 		</div>
+
+	</div>
 
 	</div>
 

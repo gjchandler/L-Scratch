@@ -1,5 +1,7 @@
 <!-- Begin Team -->
 
+<div class="team">
+
 <div class="bg-dark text-white">
 
 	<div class="container">
@@ -35,6 +37,8 @@
 		</div>
 
 	</div>
+
+</div>
 
 </div>
 

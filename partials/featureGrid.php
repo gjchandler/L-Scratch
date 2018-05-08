@@ -1,5 +1,7 @@
 <!-- Begin Feature Grid -->
 
+<div class="feature-grid">
+
 <div class="flat-section core-features">
 
 	<div class="section-content bg-gray">
@@ -103,6 +105,8 @@
 		</div>
 
 	</div>
+
+</div>
 
 </div>
 

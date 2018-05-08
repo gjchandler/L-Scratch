@@ -1,5 +1,7 @@
 <!-- Begin Genetics -->
 
+<div class="genetics">
+
 <div class="container">
 
 	<div class="row">
@@ -25,6 +27,8 @@
 
 
 	</div>
+
+</div>
 
 </div>
 

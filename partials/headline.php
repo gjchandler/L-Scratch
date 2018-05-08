@@ -1,47 +1,49 @@
 <!-- Begin Headline -->
 
-<div class="container">
+<div class="headline">
 
-	<div class="row">
+	<div class="container">
 
-		<div class="col-12 d-flex text-center flex-column">
+		<div class="row">
 
-			<h2>HEADLINE COPY GOES HERE</h2>
+			<div class="col-12 d-flex text-center flex-column">
 
-		</div>
+				<h2>HEADLINE COPY GOES HERE</h2>
 
-		<div class="col-12 d-flex text-center flex-column">
+			</div>
 
-			<p>Subhead copy goes here</p>
+			<div class="col-12 d-flex text-center flex-column">
 
-		</div>
-
-	</div>
-
-	<div class="row">
-
-		<div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
-
-			<div>
-
-				<h4>Epigenetic clock predicts life expectancy,
-				UCLA-led study shows</h4>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-				nonummy nibh euismod tincidunt ut laoreet dolore</p>
+				<p>Subhead copy goes here</p>
 
 			</div>
 
 		</div>
 
-		<div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
+		<div class="row">
 
-			<img src="images/aging.png" alt="">
+			<div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
+
+				<div>
+
+					<h4>Epigenetic clock predicts life expectancy,
+					UCLA-led study shows</h4>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+					nonummy nibh euismod tincidunt ut laoreet dolore</p>
+
+				</div>
+
+			</div>
+
+			<div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
+
+				<img src="images/aging.png" alt="">
+
+			</div>
 
 		</div>
 
 	</div>
-
-</div>
 
 </div>
 

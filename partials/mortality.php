@@ -1,7 +1,8 @@
 <!-- Begin Mortality -->
 
-<div class="container">
+<div class="mortality">
 
+<div class="container">
 	
 	<div class="row">
 
@@ -42,5 +43,6 @@
 </div>
 
 </div>
+
 
 <!-- End Mortality -->	

@@ -1,5 +1,7 @@
 <!-- Begin Quote Carousel -->
 
+<div class="quote-carousel">
+
 <div class="bg-dark text-white text-center">
 
 	<div class="container">
@@ -107,6 +109,8 @@
 		</div>
 
 	</div>
+
+</div>
 
 </div>
 

@@ -1,5 +1,7 @@
 <!-- Begin Press 2 -->
 
+<div class="press-2">
+
 <div class="container">
 
 	<div class="row">
@@ -17,6 +19,8 @@
 		</div>
 
 	</div>
+
+</div>
 
 </div>
 

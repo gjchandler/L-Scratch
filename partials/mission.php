@@ -1,5 +1,7 @@
 <!-- Begin -->
 
+<div class="mission">
+
 <div style="background-color:#544fd9;" class="text-white">
 
 	<div class="container">
@@ -31,6 +33,8 @@
 		</div>
 
 	</div>
+
+</div>
 
 </div>
 

@@ -1,5 +1,7 @@
 <!-- Begin CTA White -->
 
+<div class="cta-white">
+
 	<div class="container">
 
 		<div class="row">
@@ -12,7 +14,7 @@
 
 			<div class="col-12 d-flex text-center flex-column">
 
-<button type="button" class="btn btn-lg text-white" style="background-color:#ec2a90">GET YOUR FREE QUOTE</button>
+				<button type="button" class="btn btn-lg text-white" style="background-color:#ec2a90">GET YOUR FREE QUOTE</button>
 
 			</div>
 
@@ -25,5 +27,7 @@
 		</div>
 
 	</div>
+
+</div>
 
 <!-- End CTA White -->	

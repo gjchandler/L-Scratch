@@ -1,5 +1,7 @@
 <!-- Begin Quote CTA-->
 
+<div class="quote-cta">
+
 <div class="section-content">
 
   <div class="container">
@@ -74,6 +76,8 @@
     </div>
 
   </div>
+
+</div>
 
 </div>
 

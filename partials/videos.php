@@ -1,5 +1,7 @@
 <!-- Begin Videos -->
 
+<div class="videos">
+
 <div class="video flat-section">
 
     <div class="section-content bg-img dark-overlay" style="background-image: url(/images/bg.jpg);">
@@ -38,7 +40,9 @@
         </div>
 
     </div>
-    
+
+</div>
+
 </div>
 
 <!-- End Videos -->    

@@ -1,6 +1,6 @@
 <!-- Begin Top Nav Sticky -->
 
-<div class="main-nav-wrapper bg-light fixed-top">
+<div class="main-nav-wrapper top-nav-sticky bg-light fixed-top">
 
 <div class="container">
 

@@ -1,5 +1,7 @@
 <!-- Begin Sequencing -->
 
+<div class="sequencing">
+
 <div class="container">
 
 	<div class="row">
@@ -53,5 +55,6 @@
 </div>
 
 </div>
+
 
 <!-- End Sequencing -->	

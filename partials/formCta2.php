@@ -1,5 +1,7 @@
 <!-- Begin Form CTA 2 -->
 
+<div class="form-cta-2">
+
 <div class="jumbotron  d-flex align-items-center" style="background-image:url('/images/bg.jpg'); background-size:cover; position:relative;">
 
 	<img src="/images/waves.svg" 
@@ -36,6 +38,8 @@
 		</div>
 
 	</div>
+
+</div>
 
 </div>
 

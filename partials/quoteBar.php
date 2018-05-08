@@ -1,7 +1,9 @@
 <!-- Begin Quote Bar -->
 
+<div class="quote-bar">
+
 <div class="quote-bar-wrapper fixed-top bg-light">
-  
+
   <div class="container quote-bar d-none ">
 
     <div class="row">
@@ -23,6 +25,8 @@
    </div>
 
  </div>
+
+</div>
 
 </div>
 
