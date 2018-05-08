@@ -1,3 +1,4 @@
+<!-- Begin Headline -->
 
 <div class="container">
 
@@ -23,13 +24,12 @@
 
 			<div>
 
-			<h4>Epigenetic clock predicts life expectancy,
-UCLA-led study shows</h4>
+				<h4>Epigenetic clock predicts life expectancy,
+				UCLA-led study shows</h4>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+				nonummy nibh euismod tincidunt ut laoreet dolore</p>
 
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut laoreet dolore</p>
-
-</div>
+			</div>
 
 		</div>
 
@@ -37,11 +37,12 @@ nonummy nibh euismod tincidunt ut laoreet dolore</p>
 
 			<img src="images/aging.png" alt="">
 
-
 		</div>
- 
-</div>
 
 	</div>
 
 </div>
+
+</div>
+
+<!-- End Headline -->	

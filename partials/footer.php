@@ -1,3 +1,4 @@
+<!-- Begin Footer -->
 
 <div class="bg-dark text-white footer">
 
@@ -53,3 +54,5 @@
 	</div>
 
 </div>
+
+<!-- End Footer -->	

@@ -1,5 +1,4 @@
-
-
+<!-- Begin CTA White -->
 
 	<div class="container">
 
@@ -7,7 +6,6 @@
 
 			<div class="col-12 d-flex text-center flex-column">
 				
-
 				<h2>CALL TO ACTION COPY GOES HERE</h2>
 				
 			</div>
@@ -22,10 +20,10 @@
 
 				<h3>Phone: 800-000-0000 • Available Monday - Friday 7am - 6pm CST</h3>
 
-
 			</div>
-
 
 		</div>
 
 	</div>
+
+<!-- End CTA White -->	

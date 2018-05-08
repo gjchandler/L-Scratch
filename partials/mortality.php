@@ -1,3 +1,4 @@
+<!-- Begin Mortality -->
 
 <div class="container">
 
@@ -8,7 +9,7 @@
 
 			<div>
 
-<h4>Methylation (M) Factor Distribution</h4>
+				<h4>Methylation (M) Factor Distribution</h4>
 
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
 					nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
@@ -22,7 +23,7 @@
 					diam nonummy nibh euismod tincidunt ut laoreet dolore 
 				</p>
 
-				</div>
+			</div>
 
 		</div>
 
@@ -31,7 +32,6 @@
 			<div>
 
 				<img src="images/mortality-table.png" alt="">
-
 				
 			</div>
 
@@ -42,3 +42,5 @@
 </div>
 
 </div>
+
+<!-- End Mortality -->	

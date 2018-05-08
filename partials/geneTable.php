@@ -1,3 +1,4 @@
+<!-- Begin Gene Table -->
 
 <div class="container">
 
@@ -12,3 +13,5 @@
 	</div>
 
 </div>
+
+<!-- End Gene Table -->	

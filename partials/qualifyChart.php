@@ -1,3 +1,4 @@
+<!-- Begin Qualify Chart-->
 
 <div class="container">
 
@@ -15,14 +16,12 @@
 
 			<canvas id="myChart" width="400" height="200"></canvas>
 
-			
-
-			
-
-			 <script src="/js/profitChart.js"></script>
-
+			<script src="/js/profitChart.js"></script>
 
 		</div>
 
 	</div>
+
 </div>
+
+<!-- End Qualify Chart -->	
