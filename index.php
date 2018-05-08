@@ -43,6 +43,11 @@
     include 'partials/evolution.php';
     include 'partials/services.php';
     include 'partials/videos.php';
+    include 'partials/reports.php';
+    include 'partials/featureGrid.php';
+    include 'partials/quoteCarousel.php';
+    include 'partials/workProcess.php';
+    include 'partials/quoteCta.php';
    include 'partials/footer.php';
 
   ?>

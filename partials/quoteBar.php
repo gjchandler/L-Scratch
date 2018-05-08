@@ -1,10 +1,8 @@
-<div class="quote-bar-wrapper fixed-top bg-dark white-text">
+<div class="quote-bar-wrapper fixed-top bg-light">
   <div class="container quote-bar d-none ">
     <div class="row">
 
       <div class="col-sm-12 col-md-4">
-
-        <img src="/images/logo.png" alt="">
 
       </div>
 
