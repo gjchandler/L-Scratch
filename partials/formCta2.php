@@ -2,7 +2,7 @@
 
 <div class="form-cta-2">
 
-<div class="jumbotron  d-flex align-items-center" style="background-image:url('/images/bg.jpg'); background-size:cover; position:relative;">
+<div class="jumbotron  d-flex align-items-center" style="">
 
 	<img src="/images/waves.svg" 
 	style="position: absolute;

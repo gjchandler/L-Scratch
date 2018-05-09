@@ -1,0 +1,122 @@
+/* General Styling  */
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,700");
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Ubuntu', sans-serif; }
+
+img {
+  max-width: 100%; }
+
+.footer .card-columns {
+  column-count: 4; }
+
+.footer .card {
+  background-color: transparent; }
+
+.quote-bar-wrapper {
+  top: 80px; }
+
+.bg-blue-grad {
+  background: linear-gradient(45deg, #e5e2e1 0%, #e5e2e1 20%, #e5e2e1 100%);
+  background: linear-gradient(45deg, rgba(38, 59, 128, 0.9) 0%, rgba(38, 59, 128, 0.5) 30%, rgba(38, 59, 128, 0.2) 100%); }
+
+.quote {
+  padding: 10rem 5rem; }
+
+/* Hero & Nav area */
+.main-nav-wrapper {
+  transition: 500ms ease; }
+
+.jumbotron {
+  height: 100vh; }
+
+.form-cta-2 .jumbotron {
+  background-image: url(/images/clock2-gradient.jpg);
+  background-size: cover;
+  position: relative; }
+
+/* Report region */
+.reports {
+  background-image: url(/images/kit.png);
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #dadada; }
+
+.reports .row .row {
+  padding: 80px 0;
+  background-color: #fff; }
+
+/* Crazy video area set up */
+.waves {
+  position: relative;
+  top: 50%;
+  background: rgba(235, 232, 232, 0.9);
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  margin-left: -12px;
+  margin-top: -54px;
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden; }
+
+.waves .wave-one {
+  position: absolute;
+  background: white;
+  margin-left: -12px;
+  margin-top: -12px;
+  width: 50px;
+  height: 50px;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden;
+  animation: wave-animate 3s infinite ease-out; }
+
+.waves .wave-two {
+  position: absolute;
+  background: white;
+  margin-left: -12px;
+  margin-top: -12px;
+  width: 50px;
+  height: 50px;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  animation: wave-animate 3s 1s infinite ease-out; }
+
+.waves .wave-three {
+  position: absolute;
+  background: white;
+  margin-left: -12px;
+  margin-top: -12px;
+  width: 50px;
+  height: 50px;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  animation: wave-animate 3s 2s infinite ease-out; }
+
+@keyframes wave-animate {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+    transform-origin: center; }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+    transform-origin: center; } }
+
+.video-btn {
+  display: inline-block;
+  margin-top: 40px;
+  height: 80px; }
+
+.flat-section .section-content {
+  width: 100%;
+  padding: 100px 0 100px;
+  position: relative;
+  clear: both; }
