@@ -11,15 +11,15 @@
 
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-  <link rel="stylesheet" href="css/custom.css" type="text/css">
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 </head>
 <body>
 
   <?php  
   include 'partials/topNavSticky.php'; 
-    include 'partials/quoteBar.php'; 
-    include 'partials/formCta2.php';
+  include 'partials/quoteBar.php'; 
+  include 'partials/formCta2.php';
   //include 'partials/topNav.php'; 
   include 'partials/ctaBlue.php'; 
   include 'partials/validation.php'; 
@@ -29,33 +29,32 @@
   include 'partials/qualifyChart.php';
   include 'partials/genetics.php';
   include 'partials/geneTable.php';
-   include 'partials/age.php';
-   include 'partials/headline.php';
-   include 'partials/venn.php';
-   include 'partials/mortality.php';
-   include 'partials/partnered.php';
-   include 'partials/imgFullWidth.php';
-   include 'partials/lotsaDots.php';
-   include 'partials/sequencing.php';
-   include 'partials/team.php';
-   include 'partials/mission.php';
-   include 'partials/ctaWhite.php';
-    
-    include 'partials/evolution.php';
-    include 'partials/services.php';
-    include 'partials/videos.php';
-    include 'partials/reports.php';
-    include 'partials/featureGrid.php';
-    include 'partials/quoteCarousel.php';
-    include 'partials/workProcess.php';
-    include 'partials/quoteCta.php';
-   include 'partials/footer.php';
+  include 'partials/age.php';
+  include 'partials/headline.php';
+  include 'partials/venn.php';
+  include 'partials/mortality.php';
+  include 'partials/partnered.php';
+  include 'partials/imgFullWidth.php';
+  include 'partials/lotsaDots.php';
+  include 'partials/sequencing.php';
+  include 'partials/team.php';
+  include 'partials/mission.php';
+  include 'partials/ctaWhite.php';
+  include 'partials/evolution.php';
+  include 'partials/services.php';
+  include 'partials/videos.php';
+  include 'partials/reports.php';
+  include 'partials/featureGrid.php';
+  include 'partials/quoteCarousel.php';
+  include 'partials/workProcess.php';
+  include 'partials/quoteCta.php';
+  include 'partials/footer.php';
 
   ?>
 
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="js/bootstrap.js"></script>
-<script src="js/custom.js"></script>
+  <script src="js/custom.js"></script>
 
 </body>
 </html>
