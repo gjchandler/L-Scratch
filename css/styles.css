@@ -1,7 +1,15 @@
-/* General Styling  */
+/* Styling Variables/ Imports */
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,700");
+/* General Styling  */
 h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
+
+h1 {
+  font-size: 54px;
+  font-weight: 700; }
+
+p {
+  color: #888; }
 
 img {
   max-width: 100%; }
@@ -12,9 +20,6 @@ img {
 .footer .card {
   background-color: transparent; }
 
-.quote-bar-wrapper {
-  top: 80px; }
-
 .bg-blue-grad {
   background: linear-gradient(45deg, #e5e2e1 0%, #e5e2e1 20%, #e5e2e1 100%);
   background: linear-gradient(45deg, rgba(38, 59, 128, 0.9) 0%, rgba(38, 59, 128, 0.5) 30%, rgba(38, 59, 128, 0.2) 100%); }
@@ -23,6 +28,44 @@ img {
   padding: 10rem 5rem; }
 
 /* Hero & Nav area */
+.form-cta-2 .col-12:nth-of-type(1) {
+  text-shadow: 2px 2px 10px rgba(102, 101, 58, 0.8); }
+  .form-cta-2 .col-12:nth-of-type(1) p {
+    color: #ebe8e8; }
+
+.form-cta-2 .box-signup-form {
+  position: relative;
+  padding: 50px;
+  text-align: center;
+  background: #ebe8e8; }
+  .form-cta-2 .box-signup-form input[type=submit] {
+    background: #25387d;
+    color: #ebe8e8;
+    transition: all 0.2s;
+    letter-spacing: 2px;
+    padding: 26px 26px;
+    font-size: 12px;
+    text-transform: uppercase; }
+  .form-cta-2 .box-signup-form input[type=submit]:hover {
+    background: #000; }
+
+.cta-blue .jumbotron {
+  background-image: url(/images/bg.jpg); }
+  .cta-blue .jumbotron .col-12:nth-of-type(1) {
+    text-shadow: 2px 2px 10px rgba(102, 101, 58, 0.8); }
+    .cta-blue .jumbotron .col-12:nth-of-type(1) p {
+      color: #ebe8e8; }
+
+.quote-bar-wrapper {
+  top: 10px;
+  padding: 1rem 0;
+  transition: 500ms ease; }
+  .quote-bar-wrapper span, .quote-bar-wrapper input, .quote-bar-wrapper button {
+    margin-left: 1rem; }
+
+.quote-bar {
+  transition: 500ms ease; }
+
 .main-nav-wrapper {
   transition: 500ms ease; }
 
@@ -33,6 +76,11 @@ img {
   background-image: url(/images/clock2-gradient.jpg);
   background-size: cover;
   position: relative; }
+
+/* Validation Region */
+.validation {
+  border-bottom: 2px solid #5590cc;
+  padding: 3rem 0; }
 
 /* Report region */
 .reports {
@@ -45,9 +93,6 @@ img {
 .reports .row .row {
   padding: 80px 0;
   background-color: #fff; }
-
-.mistake {
-  font: 1; }
 
 /* Crazy video area set up */
 .waves {

@@ -6,7 +6,7 @@
 
       <div class="banner-center-box">
 
-        <div class="box-signup-form bs-form-1">
+        <div class="">
 
             <h3>Get Your Free Quote</h3>
             <p>You are one step away from joining the future</p>

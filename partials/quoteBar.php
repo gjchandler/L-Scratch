@@ -2,7 +2,7 @@
 
 <div class="quote-bar">
 
-<div class="quote-bar-wrapper fixed-top bg-light">
+<div class="quote-bar-wrapper fixed-top">
 
   <div class="container quote-bar d-none ">
 
@@ -12,7 +12,7 @@
 
       </div>
 
-      <div class="col-sm-12 col-md-8 d-flex align-items-center" style="justify-content:flex-end;">
+      <div class="col-sm-12 col-md-8 d-flex align-items-center bg-light" style="justify-content:flex-end;">
 
        <span> Get a free quote now </span>
 

@@ -1,9 +1,24 @@
+/* Styling Variables/ Imports */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
+$main-font: 'Ubuntu', sans-serif;
+$white:#ebe8e8;
+$main-color:#25387d;
+$light-blue: #5590cc;
+$gray: #525252;
+
 /* General Styling  */
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
-
 h1,h2,h3,h4,h5,h6,p{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: $main-font;
+}
+
+h1{
+    font-size:54px;
+    font-weight: 700;
+}
+
+p{
+    color:#888;
 }
 
 img{
@@ -11,16 +26,11 @@ img{
 }
 
 .footer .card-columns{
-column-count:4;
+    column-count:4;
 }
 
 .footer .card{
-background-color:transparent;
-}
-
-
-.quote-bar-wrapper{
-	top:80px;
+    background-color:transparent;
 }
 
 
@@ -34,6 +44,68 @@ background-color:transparent;
 }
 
 /* Hero & Nav area */
+
+.form-cta-2{
+
+    .col-12:nth-of-type(1){
+        text-shadow: 2px 2px 10px rgba(102, 101, 58, .8);
+
+        p{
+            color:$white;
+        }
+    } 
+
+    .box-signup-form {
+        position: relative;
+        padding: 50px;
+        text-align: center;
+        background: #ebe8e8;
+
+        input[type=submit]{
+            background:$main-color;
+            color:$white;
+            transition: all 0.2s;
+            letter-spacing: 2px;
+            padding: 26px 26px;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        input[type=submit]:hover{
+            background:#000;
+        }
+    }
+}
+
+.cta-blue{
+
+    .jumbotron{
+        background-image:url(/images/bg.jpg);
+
+        .col-12:nth-of-type(1){
+            text-shadow: 2px 2px 10px rgba(102, 101, 58, .8);
+
+            p{
+                color:$white;
+            }
+        } 
+    }
+}
+
+.quote-bar-wrapper{
+    top:10px;
+    padding:1rem 0;
+    transition:500ms ease;
+    span,input,button{
+        margin-left:1rem;
+}
+}
+
+.quote-bar{
+        transition:500ms ease;
+    }
+
+
 .main-nav-wrapper{
     transition:500ms ease;
 }
@@ -43,15 +115,21 @@ background-color:transparent;
 }
 
 .form-cta-2 .jumbotron{
-background-image:url(/images/clock2-gradient.jpg);
-background-size:cover;
-position:relative;
+    background-image:url(/images/clock2-gradient.jpg);
+    background-size:cover;
+    position:relative;
+}
+
+/* Validation Region */
+.validation{
+border-bottom:2px solid #5590cc;
+padding:3rem 0;
 }
 
 /* Report region */
 
 .reports{
-        background-image: url(/images/kit.png);
+    background-image: url(/images/kit.png);
     background-position-x: right;
     background-repeat: no-repeat;
     background-size: contain;
@@ -61,10 +139,6 @@ position:relative;
 .reports .row .row{
     padding:80px 0;
     background-color:#fff;
-}
-
-.mistake{
-    font:1;
 }
 
 /* Crazy video area set up */
