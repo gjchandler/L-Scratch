@@ -5,6 +5,8 @@ $white:#ebe8e8;
 $main-color:#25387d;
 $light-blue: #5590cc;
 $gray: #525252;
+$light-gray:#dee2e6;
+$purple: #544fd9;
 
 /* General Styling  */
 
@@ -25,6 +27,21 @@ img{
 	max-width:100%;
 }
 
+.theme-color{
+    color:$main-color;
+}
+
+.theme-bg{
+    background-color:$main-color;
+}
+
+.flat-section .section-content {
+    width: 100%;
+    padding: 100px 0 100px;
+    position: relative;
+    clear: both;
+}
+
 .footer .card-columns{
     column-count:4;
 }
@@ -33,10 +50,17 @@ img{
     background-color:transparent;
 }
 
+.container{
+    padding:1rem 0;
+}
 
 .bg-blue-grad{
 	background: linear-gradient(45deg, rgba(229, 226, 225, 1) 0%, rgba(229, 226, 225, 1) 20%, rgba(229, 226, 225, 1) 100%);
     background: linear-gradient(45deg, rgba(38, 59, 128, .9) 0%, rgba(38, 59, 128, .5) 30%, rgba(38, 59, 128, .2) 100%);
+}
+
+.title{
+    padding:1rem 0;
 }
 
 .quote{
@@ -98,12 +122,12 @@ img{
     transition:500ms ease;
     span,input,button{
         margin-left:1rem;
-}
+    }
 }
 
 .quote-bar{
-        transition:500ms ease;
-    }
+    transition:500ms ease;
+}
 
 
 .main-nav-wrapper{
@@ -122,30 +146,134 @@ img{
 
 /* Validation Region */
 .validation{
-border-bottom:2px solid #5590cc;
-padding:3rem 0;
+    border-bottom:2px solid #5590cc;
+    padding:3rem 0;
 }
 
-/* Report region */
-
-.reports{
-    background-image: url(/images/kit.png);
-    background-position-x: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color:#dadada;
-} 
-
-.reports .row .row{
-    padding:80px 0;
-    background-color:#fff;
+/* Press 2 region */
+.press-2{
+    padding:2rem 0;
 }
+
+/* Overpay Region */
+
+.overpay{
+
+    img{
+        padding-bottom:2rem;
+    }
+
+    .col-12{
+
+        padding-bottom:3rem;
+
+        p:last-child{
+            position:absolute;
+            bottom:0;
+            left:0;
+            width: 100%;
+
+            a{
+                color:#f04ea3;
+            }
+        }
+    }
+}
+
+/* Rate Table Region */
+
+.rate-table{
+
+    .table{
+
+        width:66%;
+        margin:2rem auto;
+
+        thead{
+            background-color:$purple;
+            color:$white;
+        }
+
+        tbody{
+
+            td{
+                border-left:1px solid $light-gray;
+                text-align:center;
+                font-weight:700;
+            }
+        }
+    }
+}
+
+/* Qualify Chart region */
+
+.qualify-chart{
+
+
+}
+
+/* Mission Region */
+
+.mission{
+
+    .container{
+        background-color:$purple;
+        padding:4rem 0;
+
+        p{
+            color:$white;
+        }
+    }
+}
+
+/* Evolution Region */
+.evolution{
+
+ i{
+    font-size:5rem;
+    margin-bottom:2rem;
+    color:$main-color;
+}
+
+}
+
+.services{
+
+    .col-md-4{
+        height:300px;
+    }
+
+    i{
+        font-size:3rem;
+        margin-bottom:2rem;
+    }
+
+    .theme-bg{
+
+        h3,p,i{
+            color:$white;
+        }
+    }
+}
+
 
 /* Crazy video area set up */
 
+.videos{
+
+   .fa{
+    z-index:10;
+    position: absolute;
+    top: -50px;
+}
+
+a{
+    position:relative;
+}
+
 .waves {
-    position: relative;
-    top: 50%;
+    position: absolute;
+    top: 0;
     background: rgba(235, 232, 232, 0.9);
     left: 50%;
     width: 25px;
@@ -154,6 +282,8 @@ padding:3rem 0;
     margin-top: -54px;
     border-radius: 50%;
     -webkit-backface-visibility: hidden;
+    z-index:1;
+
 }
 
 .waves .wave-one {
@@ -168,6 +298,7 @@ padding:3rem 0;
     border-radius: 50%;
     -webkit-backface-visibility: hidden;
     animation: wave-animate 3s infinite ease-out;
+    z-index:1;
 }
 
 .waves .wave-two {
@@ -183,6 +314,7 @@ padding:3rem 0;
     -webkit-backface-visibility: hidden;
     opacity: 0;
     animation: wave-animate 3s 1s infinite ease-out;
+    z-index:1;
 }
 
 .waves .wave-three {
@@ -198,6 +330,7 @@ padding:3rem 0;
     -webkit-backface-visibility: hidden;
     opacity: 0;
     animation: wave-animate 3s 2s infinite ease-out;
+    z-index:1;
 }
 
 @keyframes wave-animate {
@@ -220,9 +353,29 @@ padding:3rem 0;
     height: 80px;
 }
 
-.flat-section .section-content {
-    width: 100%;
-    padding: 100px 0 100px;
-    position: relative;
-    clear: both;
 }
+
+/* Report region */
+
+.reports{
+    background-image: url(/images/kit.png);
+    background-position-x: right;
+     background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-color:#dadada;
+
+    a{
+        background-color:$main-color;
+        color:$white;
+        font-size:0.9rem;
+        letter-spacing:2px;
+        text-transform:uppercase;
+    }
+} 
+
+.reports .row .row{
+    padding:140px 0;
+    background-color:#fff;
+}
+

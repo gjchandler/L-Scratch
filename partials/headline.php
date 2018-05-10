@@ -6,13 +6,9 @@
 
 		<div class="row">
 
-			<div class="col-12 d-flex text-center flex-column">
+			<div class="col-12 d-flex text-center flex-column title">
 
 				<h2>HEADLINE COPY GOES HERE</h2>
-
-			</div>
-
-			<div class="col-12 d-flex text-center flex-column">
 
 				<p>Subhead copy goes here</p>
 

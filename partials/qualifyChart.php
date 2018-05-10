@@ -6,7 +6,7 @@
 
 	<div class="row">
 
-		<div class="col-12 d-flex flex-column text-center">
+		<div class="col-12 d-flex flex-column text-center title">
 
 			<h3 style="text-align:center;">DON'T THINK YOU WILL QUALIFY?</h3>
 

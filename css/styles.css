@@ -14,15 +14,33 @@ p {
 img {
   max-width: 100%; }
 
+.theme-color {
+  color: #25387d; }
+
+.theme-bg {
+  background-color: #25387d; }
+
+.flat-section .section-content {
+  width: 100%;
+  padding: 100px 0 100px;
+  position: relative;
+  clear: both; }
+
 .footer .card-columns {
   column-count: 4; }
 
 .footer .card {
   background-color: transparent; }
 
+.container {
+  padding: 1rem 0; }
+
 .bg-blue-grad {
   background: linear-gradient(45deg, #e5e2e1 0%, #e5e2e1 20%, #e5e2e1 100%);
   background: linear-gradient(45deg, rgba(38, 59, 128, 0.9) 0%, rgba(38, 59, 128, 0.5) 30%, rgba(38, 59, 128, 0.2) 100%); }
+
+.title {
+  padding: 1rem 0; }
 
 .quote {
   padding: 10rem 5rem; }
@@ -82,22 +100,72 @@ img {
   border-bottom: 2px solid #5590cc;
   padding: 3rem 0; }
 
-/* Report region */
-.reports {
-  background-image: url(/images/kit.png);
-  background-position-x: right;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #dadada; }
+/* Press 2 region */
+.press-2 {
+  padding: 2rem 0; }
 
-.reports .row .row {
-  padding: 80px 0;
-  background-color: #fff; }
+/* Overpay Region */
+.overpay img {
+  padding-bottom: 2rem; }
+
+.overpay .col-12 {
+  padding-bottom: 3rem; }
+  .overpay .col-12 p:last-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; }
+    .overpay .col-12 p:last-child a {
+      color: #f04ea3; }
+
+/* Rate Table Region */
+.rate-table .table {
+  width: 66%;
+  margin: 2rem auto; }
+  .rate-table .table thead {
+    background-color: #544fd9;
+    color: #ebe8e8; }
+  .rate-table .table tbody td {
+    border-left: 1px solid #dee2e6;
+    text-align: center;
+    font-weight: 700; }
+
+/* Qualify Chart region */
+/* Mission Region */
+.mission .container {
+  background-color: #544fd9;
+  padding: 4rem 0; }
+  .mission .container p {
+    color: #ebe8e8; }
+
+/* Evolution Region */
+.evolution i {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  color: #25387d; }
+
+.services .col-md-4 {
+  height: 300px; }
+
+.services i {
+  font-size: 3rem;
+  margin-bottom: 2rem; }
+
+.services .theme-bg h3, .services .theme-bg p, .services .theme-bg i {
+  color: #ebe8e8; }
 
 /* Crazy video area set up */
-.waves {
-  position: relative;
-  top: 50%;
+.videos .fa {
+  z-index: 10;
+  position: absolute;
+  top: -50px; }
+
+.videos a {
+  position: relative; }
+
+.videos .waves {
+  position: absolute;
+  top: 0;
   background: rgba(235, 232, 232, 0.9);
   left: 50%;
   width: 25px;
@@ -105,9 +173,10 @@ img {
   margin-left: -12px;
   margin-top: -54px;
   border-radius: 50%;
-  -webkit-backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+  z-index: 1; }
 
-.waves .wave-one {
+.videos .waves .wave-one {
   position: absolute;
   background: white;
   margin-left: -12px;
@@ -118,23 +187,10 @@ img {
   display: block;
   border-radius: 50%;
   -webkit-backface-visibility: hidden;
-  animation: wave-animate 3s infinite ease-out; }
+  animation: wave-animate 3s infinite ease-out;
+  z-index: 1; }
 
-.waves .wave-two {
-  position: absolute;
-  background: white;
-  margin-left: -12px;
-  margin-top: -12px;
-  width: 50px;
-  height: 50px;
-  content: "";
-  display: block;
-  border-radius: 50%;
-  -webkit-backface-visibility: hidden;
-  opacity: 0;
-  animation: wave-animate 3s 1s infinite ease-out; }
-
-.waves .wave-three {
+.videos .waves .wave-two {
   position: absolute;
   background: white;
   margin-left: -12px;
@@ -146,7 +202,23 @@ img {
   border-radius: 50%;
   -webkit-backface-visibility: hidden;
   opacity: 0;
-  animation: wave-animate 3s 2s infinite ease-out; }
+  animation: wave-animate 3s 1s infinite ease-out;
+  z-index: 1; }
+
+.videos .waves .wave-three {
+  position: absolute;
+  background: white;
+  margin-left: -12px;
+  margin-top: -12px;
+  width: 50px;
+  height: 50px;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  animation: wave-animate 3s 2s infinite ease-out;
+  z-index: 1; }
 
 @keyframes wave-animate {
   0% {
@@ -158,13 +230,26 @@ img {
     opacity: 0;
     transform-origin: center; } }
 
-.video-btn {
+.videos .video-btn {
   display: inline-block;
   margin-top: 40px;
   height: 80px; }
 
-.flat-section .section-content {
-  width: 100%;
-  padding: 100px 0 100px;
-  position: relative;
-  clear: both; }
+/* Report region */
+.reports {
+  background-image: url(/images/kit.png);
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-color: #dadada; }
+  .reports a {
+    background-color: #25387d;
+    color: #ebe8e8;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+
+.reports .row .row {
+  padding: 140px 0;
+  background-color: #fff; }

@@ -4,13 +4,9 @@
 
 	<div class="row">
 
-		<div class="col-12 d-flex text-center flex-column">
+		<div class="col-12 d-flex text-center flex-column title">
 
 			<h2>CHRONOLOGICAL AGE DIFFERS FROM BIOLOGICAL AGE</h2>
-
-		</div>
-
-		<div class="col-12 d-flex text-center flex-column">
 
 			<p>Who would you rather sell life insurance to?</p>
 

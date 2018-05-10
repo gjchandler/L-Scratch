@@ -6,7 +6,7 @@
 
     <div class="row no-gutter text-center">
 
-        <div class="col-md-4 bg-gray">
+        <div class="col-md-4 bg-gray d-flex align-items-center justify-content-center">
 
             <div class="item">
 
@@ -18,7 +18,7 @@
 
         </div>
 
-        <div class="col-md-4 theme-bg">
+        <div class="col-md-4 theme-bg d-flex align-items-center justify-content-center">
 
             <div class="item">
 
@@ -30,7 +30,7 @@
 
         </div>
 
-        <div class="col-md-4 bg-gray">
+        <div class="col-md-4 bg-gray d-flex align-items-center justify-content-center">
 
             <div class="item">
 
@@ -42,7 +42,7 @@
 
         </div>
 
-        <div class="col-md-4 theme-bg">
+        <div class="col-md-4 theme-bg d-flex align-items-center justify-content-center">
 
             <div class="item">
 
@@ -54,7 +54,7 @@
 
         </div>
 
-        <div class="col-md-4 bg-gray">
+        <div class="col-md-4 bg-gray d-flex align-items-center justify-content-center">
 
             <div class="item">
 
@@ -66,7 +66,7 @@
 
         </div>
 
-        <div class="col-md-4 theme-bg">
+        <div class="col-md-4 theme-bg d-flex align-items-center justify-content-center">
 
             <div class="item">
 
