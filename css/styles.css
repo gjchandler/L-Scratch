@@ -14,6 +14,9 @@ p {
 img {
   max-width: 100%; }
 
+.fa {
+  font-size: 3rem; }
+
 .theme-color {
   color: #25387d; }
 
@@ -39,11 +42,20 @@ img {
   background: linear-gradient(45deg, #e5e2e1 0%, #e5e2e1 20%, #e5e2e1 100%);
   background: linear-gradient(45deg, rgba(38, 59, 128, 0.9) 0%, rgba(38, 59, 128, 0.5) 30%, rgba(38, 59, 128, 0.2) 100%); }
 
+.bg-gray {
+  background-color: #cfccce; }
+
+.bg-gray-2 {
+  background-color: #cfccce; }
+
+.bg-gray-3 {
+  background-color: #c0eaf5; }
+
+.bg-white {
+  background-color: #ebe8e8 !important; }
+
 .title {
   padding: 1rem 0; }
-
-.quote {
-  padding: 10rem 5rem; }
 
 /* Hero & Nav area */
 .form-cta-2 .col-12:nth-of-type(1) {
@@ -253,3 +265,69 @@ img {
 .reports .row .row {
   padding: 140px 0;
   background-color: #fff; }
+
+/* Freature Grid Region */
+.feature-grid .icon {
+  font-size: 3rem; }
+
+.feature-grid .col-features {
+  padding-top: 60px; }
+  .feature-grid .col-features .col-feature {
+    position: relative;
+    margin-bottom: 60px;
+    padding: 30px;
+    background-color: #ebe8e8;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    height: 300px; }
+    .feature-grid .col-features .col-feature .fa {
+      font-size: 3rem;
+      margin-bottom: 2.5rem; }
+
+/* Quote Carousel region */
+.quote-carousel-outer {
+  margin-top: 100px; }
+  .quote-carousel-outer #carouselExampleIndicators {
+    background-color: #222;
+    position: relative;
+    top: -200px;
+    box-shadow: -20px 20px 30px 0px rgba(33, 33, 33, 0.25); }
+    .quote-carousel-outer #carouselExampleIndicators .quote {
+      padding: 5rem 5rem; }
+
+/* Work process region */
+.work-process .section-content {
+  padding: 6rem 0; }
+  .work-process .section-content .process-single {
+    height: 300px;
+    background-color: #ebe8e8;
+    padding: 30px;
+    transition: all 0.3s ease-in-out; }
+    .work-process .section-content .process-single .badge {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      font-size: 90px;
+      font-weight: 400;
+      color: #dee2e6;
+      line-height: 1; }
+    .work-process .section-content .process-single .fa {
+      color: #25387d;
+      margin-bottom: 2.5rem; }
+  .work-process .section-content .process-single:hover {
+    box-shadow: 0px 17px 17px #999; }
+
+/* Quote CTA Region */
+.quote-cta .section-content {
+  padding: 6rem 0; }
+  .quote-cta .section-content input {
+    border: none;
+    padding: 1rem; }
+  .quote-cta .section-content input[type=submit] {
+    background-color: #25387d;
+    color: #ebe8e8;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .quote-cta .section-content .form-note {
+    display: none; }

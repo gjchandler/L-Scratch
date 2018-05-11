@@ -1,8 +1,8 @@
 <!-- Begin Quote CTA-->
 
-<div class="quote-cta">
+<div class="quote-cta ">
 
-<div class="section-content">
+<div class="section-content bg-white">
 
   <div class="container">
 
@@ -12,7 +12,7 @@
 
         <div class="sec-title">
 
-          <div class="icon">
+          <div class="icon theme-color">
 
             <i class="fa fa-envelope-o"></i>
 

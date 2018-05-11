@@ -2,7 +2,7 @@
 
 <div class="work-process" >
 
-  <div class="section-content">
+  <div class="section-content bg-gray">
 
     <div class="container">
 
@@ -14,7 +14,7 @@
 
             <div class="icon">
 
-              <i class="fa fa-sitemap"></i>
+              <i class="fa fa-sitemap theme-color"></i>
 
             </div>
 
@@ -31,7 +31,7 @@
 
         <div class="col-sm-4">
 
-          <div class="process-single">
+          <div class="process-single d-flex align-items-center justify-content-center flex-column">
 
             <div class="badge">1</div>
             <i class="fa fa-align-left"></i>
@@ -46,7 +46,7 @@
 
         <div class="col-sm-4">
 
-          <div class="process-single">
+          <div class="process-single d-flex align-items-center justify-content-center flex-column">
 
             <div class="badge">2</div>
             <i class="fa fa-archive"></i>
@@ -61,7 +61,7 @@
 
         <div class="col-sm-4">
 
-          <div class="process-single">
+          <div class="process-single d-flex align-items-center justify-content-center flex-column">
 
             <div class="badge">3</div>
             <i class="fa fa-money"></i>
