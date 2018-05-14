@@ -22,4 +22,6 @@ Think of this as a toolbox full of handy parts we can use to rapidly iterate on 
   - Neat example: https://jsfiddle.net/red_stapler/Luaf2tm4/
 - SASS
   - https://sass-lang.com/guide
+- Font Awesome
+  - https://fontawesome.com/cheatsheet#use
 
