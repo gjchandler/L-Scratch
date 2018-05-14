@@ -16,7 +16,7 @@ Think of this as a toolbox full of handy parts we can use to rapidly iterate on 
 ## What technology is under the hood?
 
 - Bootstrap 4
-  -https://getbootstrap.com/docs/4.0/layout/grid/
+  - https://getbootstrap.com/docs/4.0/layout/grid/
 - chart.js
   - http://www.chartjs.org/docs/latest/
   - Neat example: https://jsfiddle.net/red_stapler/Luaf2tm4/
