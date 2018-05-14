@@ -6,7 +6,7 @@ Think of this as a toolbox full of handy parts we can use to rapidly iterate on 
 
 ## How do I run it?
 
-1. Clone the repo by opening a terminal in the place you want the project then type
+1. Clone the repo by opening a terminal in the place you want the project then type:
    - **git clone https://github.com/gwglife/L-Scratch.git**
 2. Open a terminal in the cloned repo and type:
    - **npm install**
