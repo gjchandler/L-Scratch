@@ -6,12 +6,12 @@ Think of this as a toolbox full of handy parts we can use to rapidly iterate on 
 
 ## How do I run it?
 
-1. Clone the repo
-  https://github.com/gwglife/L-Scratch.git
+1. Clone the repo by opening a terminal in the place you want the project then type
+  **git clone https://github.com/gwglife/L-Scratch.git**
 2. Open a terminal in the cloned repo and type:
-  npm install
+  **npm install**
 3. Get the watcher running by entering the following in the terminal:
-  gulp
+  **gulp**
 
 ## What technology is under the hood?
 
