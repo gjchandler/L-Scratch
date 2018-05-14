@@ -12,11 +12,15 @@
 
                     <div class="col-md-12 text-center">
 
+
+
                         <a class="video-btn lightbox-iframe" href="https://vimeo.com/45830194">
 
-                            <i class="fa fa-play"></i>
+                          <i class="fa fa-play"></i>
+                          
+                      </a>
 
-                            <div class="waves">
+                       <div class="waves">
 
                               <div class="wave-one"></div>
 
@@ -25,8 +29,6 @@
                               <div class="wave-three"></div>
 
                           </div>
-
-                      </a>
 
                       <h1 class="text-white">What is Epigenetics?</h1>
 

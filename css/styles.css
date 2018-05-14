@@ -29,11 +29,13 @@ img {
   position: relative;
   clear: both; }
 
-.footer .card-columns {
-  column-count: 4; }
-
-.footer .card {
-  background-color: transparent; }
+.sec-title .title:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #25387d;
+  margin: 20px auto 0; }
 
 .container {
   padding: 1rem 0; }
@@ -167,70 +169,51 @@ img {
   color: #ebe8e8; }
 
 /* Crazy video area set up */
-.videos .fa {
+.videos .video-btn {
+  display: inline-block;
+  margin-top: 0px;
+  height: 80px;
+  position: relative;
   z-index: 10;
-  position: absolute;
-  top: -50px; }
+  left: 44px;
+  top: -13px; }
+
+.videos .fa {
+  top: -50px;
+  font-size: 2rem; }
 
 .videos a {
   position: relative; }
 
 .videos .waves {
-  position: absolute;
-  top: 0;
   background: rgba(235, 232, 232, 0.9);
-  left: 50%;
-  width: 25px;
-  height: 25px;
-  margin-left: -12px;
-  margin-top: -54px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   -webkit-backface-visibility: hidden;
-  z-index: 1; }
+  position: relative;
+  display: inline-block; }
+  .videos .waves div {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background: white;
+    width: 50px;
+    height: 50px;
+    content: "";
+    display: block;
+    border-radius: 50%;
+    -webkit-backface-visibility: hidden;
+    opacity: 0; }
 
 .videos .waves .wave-one {
-  position: absolute;
-  background: white;
-  margin-left: -12px;
-  margin-top: -12px;
-  width: 50px;
-  height: 50px;
-  content: "";
-  display: block;
-  border-radius: 50%;
-  -webkit-backface-visibility: hidden;
-  animation: wave-animate 3s infinite ease-out;
-  z-index: 1; }
+  animation: wave-animate 3s infinite ease-out; }
 
 .videos .waves .wave-two {
-  position: absolute;
-  background: white;
-  margin-left: -12px;
-  margin-top: -12px;
-  width: 50px;
-  height: 50px;
-  content: "";
-  display: block;
-  border-radius: 50%;
-  -webkit-backface-visibility: hidden;
-  opacity: 0;
-  animation: wave-animate 3s 1s infinite ease-out;
-  z-index: 1; }
+  animation: wave-animate 3s 1s infinite ease-out; }
 
 .videos .waves .wave-three {
-  position: absolute;
-  background: white;
-  margin-left: -12px;
-  margin-top: -12px;
-  width: 50px;
-  height: 50px;
-  content: "";
-  display: block;
-  border-radius: 50%;
-  -webkit-backface-visibility: hidden;
-  opacity: 0;
-  animation: wave-animate 3s 2s infinite ease-out;
-  z-index: 1; }
+  animation: wave-animate 3s 2s infinite ease-out; }
 
 @keyframes wave-animate {
   0% {
@@ -241,11 +224,6 @@ img {
     transform: scale(3);
     opacity: 0;
     transform-origin: center; } }
-
-.videos .video-btn {
-  display: inline-block;
-  margin-top: 40px;
-  height: 80px; }
 
 /* Report region */
 .reports {
@@ -286,11 +264,11 @@ img {
 
 /* Quote Carousel region */
 .quote-carousel-outer {
-  margin-top: 100px; }
+  padding-top: 100px; }
   .quote-carousel-outer #carouselExampleIndicators {
     background-color: #222;
     position: relative;
-    top: -200px;
+    top: -130px;
     box-shadow: -20px 20px 30px 0px rgba(33, 33, 33, 0.25); }
     .quote-carousel-outer #carouselExampleIndicators .quote {
       padding: 5rem 5rem; }
@@ -331,3 +309,13 @@ img {
     text-transform: uppercase; }
   .quote-cta .section-content .form-note {
     display: none; }
+
+/* Footer Region */
+.footer .card-columns {
+  column-count: 4; }
+
+.footer ul {
+  list-style-type: none; }
+
+.footer .card {
+  background-color: transparent; }
