@@ -23,6 +23,3 @@ Think of this as a toolbox full of handy parts we can use to rapidly iterate on 
 - SASS
   - https://sass-lang.com/guide
 
-1. First list item
-   - First nested list item
-     - Second nested list item
