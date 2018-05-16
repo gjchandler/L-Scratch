@@ -8,6 +8,8 @@
 
 		<div class="col-12 d-flex flex-column text-center title">
 
+		
+
 			<h3 >healthy people are overpaying for life insurance</h3>
 			<p>This is how we make it fair</p>
 

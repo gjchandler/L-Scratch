@@ -1,6 +1,6 @@
 <!-- Begin Rate Table -->
 
-<div class="rate-table">
+<div class="rate-table bg-gray-4">
 
 <div class="container">
 

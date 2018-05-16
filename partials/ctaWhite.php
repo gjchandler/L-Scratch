@@ -12,9 +12,9 @@
 				
 			</div>
 
-			<div class="col-12 d-flex text-center flex-column">
+			<div class="col-12 d-flex text-center  align-items-center justify-content-center">
 
-				<button type="button" class="btn btn-lg text-white" style="background-color:#ec2a90">GET YOUR FREE QUOTE</button>
+				<button type="button" class="btn btn-lg text-white">GET YOUR FREE QUOTE</button>
 
 			</div>
 

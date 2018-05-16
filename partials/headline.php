@@ -1,6 +1,6 @@
 <!-- Begin Headline -->
 
-<div class="headline">
+<div class="headline bg-gray-4">
 
 	<div class="container">
 

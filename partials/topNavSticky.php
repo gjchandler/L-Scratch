@@ -1,6 +1,6 @@
 <!-- Begin Top Nav Sticky -->
 
-<div class="main-nav-wrapper top-nav-sticky fixed-top">
+<div class="main-nav-wrapper top-nav-sticky fixed-top bg-light">
 
 <div class="container">
 
@@ -20,7 +20,7 @@
 
   <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
 
-    <ul class="navbar-nav d-none">
+    <ul class="navbar-nav">
 
       <li class="nav-item active">
 

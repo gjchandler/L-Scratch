@@ -16,7 +16,7 @@
 
        <span> Get a free quote now </span>
 
-       <input type="text">
+       <input type="text" placeholder="Enter your zip">
 
        <button type="button" class="btn btn-primary">Get a quote</button>
 

@@ -1,6 +1,6 @@
 <!-- Begin Qualify Chart-->
 
-<div class="qualify-chart">
+<div class="qualify-chart bg-gray-4">
 
 <div class="container">
 
@@ -10,7 +10,7 @@
 
 			<h3 style="text-align:center;">DON'T THINK YOU WILL QUALIFY?</h3>
 
-			<p>We can stil save you money—and give you important information. Even if you don’t score well on our all-cause mortality test.</p>
+			<p>We can still save you money—and give you important information. Even if you don’t score well on our all-cause mortality test.</p>
 
 		</div>
 
