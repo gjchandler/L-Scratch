@@ -695,6 +695,22 @@ img{
 
         .quote{
             padding:5rem 5rem;
+
+            .quote-inner{
+
+                padding:0 2rem;
+
+            p{
+                font-size:1.75rem;
+                font-family:$main-font;
+                color:$white;
+            }
+
+            .byline{
+                font-size:1.0rem;
+            }
+
+        }
         }
     }
 }
@@ -702,6 +718,14 @@ img{
 /* Work process region */
 
 .work-process{
+
+    .title{
+        margin-bottom:0;
+    }
+
+    .subtitle{
+        margin-bottom:3rem;
+    }
 
     .section-content{
 

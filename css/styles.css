@@ -451,8 +451,22 @@ img {
     box-shadow: -20px 20px 30px 0px rgba(33, 33, 33, 0.25); }
     .quote-carousel-outer #carouselExampleIndicators .quote {
       padding: 5rem 5rem; }
+      .quote-carousel-outer #carouselExampleIndicators .quote .quote-inner {
+        padding: 0 2rem; }
+        .quote-carousel-outer #carouselExampleIndicators .quote .quote-inner p {
+          font-size: 1.75rem;
+          font-family: "Ubuntu", sans-serif;
+          color: #ebe8e8; }
+        .quote-carousel-outer #carouselExampleIndicators .quote .quote-inner .byline {
+          font-size: 1.0rem; }
 
 /* Work process region */
+.work-process .title {
+  margin-bottom: 0; }
+
+.work-process .subtitle {
+  margin-bottom: 3rem; }
+
 .work-process .section-content {
   padding: 6rem 0; }
   .work-process .section-content .process-single {
