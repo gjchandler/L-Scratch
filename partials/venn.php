@@ -1,6 +1,6 @@
 <!-- Begin Venn -->
 
-<div class="venn">
+<div class="venn outer-element">
 
 <div class="container">
 

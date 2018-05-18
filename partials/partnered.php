@@ -1,12 +1,12 @@
 <!-- Begin Partnered -->
 
-<div class="partnered">
+<div class="partnered outer-element">
 
 <div class="container">
 	
 	<div class="row">
 
-		<div class="col-sm-12 col-md-7 col-lg-7 d-flex align-items-center justify-content-center">
+		<div class="col-sm-12 col-md-7 col-lg-7 d-flex align-items-center justify-content-left">
 
 			<img src="images/dots.png" alt="">			
 

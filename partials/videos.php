@@ -1,6 +1,6 @@
 <!-- Begin Videos -->
 
-<div class="videos">
+<div class="videos outer-element">
 
     <div class="video flat-section">
 

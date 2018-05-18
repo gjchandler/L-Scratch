@@ -1,6 +1,6 @@
 <!-- Begin Lotsa Dots -->
 
-<div class="lotsa-dots">
+<div class="lotsa-dots outer-element">
 
 <div class="container">
 

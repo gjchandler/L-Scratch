@@ -1,6 +1,6 @@
 <!-- Begin Services -->
 
-<div class="services">
+<div class="services outer-element">
 
 <div class="container-fluid">
 

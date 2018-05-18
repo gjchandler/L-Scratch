@@ -1,6 +1,6 @@
 <!-- Begin Qualify Chart-->
 
-<div class="qualify-chart bg-gray-4">
+<div class="qualify-chart bg-gray-4 outer-element">
 
 <div class="container">
 

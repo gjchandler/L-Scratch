@@ -1,6 +1,6 @@
 <!-- Begin Evolution -->
 
-<div class="evolution">
+<div class="evolution outer-element">
 
 <div class="container">
 

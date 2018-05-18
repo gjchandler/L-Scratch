@@ -1,6 +1,6 @@
 <!-- Begin Press 2 -->
 
-<div class="press-2">
+<div class="press-2 outer-element">
 
 <div class="container">
 

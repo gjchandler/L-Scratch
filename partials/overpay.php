@@ -1,6 +1,6 @@
 <!-- Begin Overpay -->
 
-<div class="overpay">
+<div class="overpay outer-element">
 
 <div class="container">
 

@@ -1,6 +1,6 @@
 <!-- Begin Work Process -->
 
-<div class="work-process" >
+<div class="work-process outer-element" >
 
   <div class="section-content bg-gray">
 
@@ -29,7 +29,7 @@
 
       <div class="row text-center">
 
-        <div class="col-sm-4">
+        <div class="col-sm-12 col-md-4">
 
           <div class="process-single d-flex align-items-center justify-content-center flex-column">
 
@@ -44,7 +44,7 @@
 
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-12 col-md-4">
 
           <div class="process-single d-flex align-items-center justify-content-center flex-column">
 
@@ -59,7 +59,7 @@
 
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-12 col-md-4">
 
           <div class="process-single d-flex align-items-center justify-content-center flex-column">
 

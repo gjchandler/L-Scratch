@@ -1,6 +1,6 @@
 <!-- Begin CTA Blue-->
 
-<div class="cta-blue">
+<div class="cta-blue  outer-element">
 
 	<div class="jumbotron  d-flex align-items-center">
 
@@ -17,7 +17,7 @@
 							Life Insurance
 						</h1>
 
-						<p class="lead">from Advanced Science</p>
+						<p class="lead">From Advanced Science</p>
 
 					</div>
 

@@ -1,10 +1,10 @@
 <!-- Begin Quote Bar -->
 
-<div class="quote-bar">
+<div class="quote-bar quote-bar d-none hidden-sm-down">
 
 <div class="quote-bar-wrapper fixed-top">
 
-  <div class="container quote-bar d-none ">
+  <div class="container">
 
     <div class="row">
 

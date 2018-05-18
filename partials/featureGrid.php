@@ -1,6 +1,6 @@
 <!-- Begin Feature Grid -->
 
-<div class="feature-grid">
+<div class="feature-grid outer-element">
 
 	<div class="flat-section core-features bg-gray-2">
 

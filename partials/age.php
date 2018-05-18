@@ -1,6 +1,6 @@
 <!-- Begin Age -->
 
-<div class="container" class="age">
+<div class="container" class="age  outer-element">
 
 	<div class="row">
 

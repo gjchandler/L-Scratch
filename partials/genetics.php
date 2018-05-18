@@ -1,6 +1,6 @@
 <!-- Begin Genetics -->
 
-<div class="genetics">
+<div class="genetics outer-element">
 
 <div class="container">
 

@@ -1,6 +1,6 @@
 <!-- Begin Quote CTA-->
 
-<div class="quote-cta ">
+<div class="quote-cta  outer-element">
 
 <div class="section-content bg-white">
 

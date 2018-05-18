@@ -1,6 +1,6 @@
 <!-- Begin Top Nav -->
 
-<div class="top-nav">
+<div class="top-nav outer-element">
 
 <div class="container">
 
@@ -10,7 +10,9 @@
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+      </span>
 
     </button>
 

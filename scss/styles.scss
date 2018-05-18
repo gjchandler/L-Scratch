@@ -18,13 +18,26 @@ $purple: #544fd9;
 $pink:#ec2a90;
 
 /* General Styling  */
+*{
+  font-size:16px;
+  transition: .5s ease;
+}
+
 
 h1,h2,h3,h4,h5,h6{
     font-family: $main-font;
+
+    span{
+        font-size:inherit;
+    }
 }
 
 p{
     font-family:$p-font;
+
+    span{
+        font-size:inherit;
+    }
 }
 
 h1{
@@ -50,6 +63,14 @@ img{
 	max-width:100%;
 }
 
+.container{
+    padding:5rem 0;
+}
+
+.jumbotron{
+    border-radius:0;
+}
+
 .fa{
     font-size:3rem;
 }
@@ -62,9 +83,17 @@ img{
     background-color:$main-color;
 }
 
+.outer-element{
+    box-shadow:0 2px 4px rgba(0,0,0,0.2);
+}
+
+button:hover,input[type=submit]:hover,.btn:hover{
+    box-shadow:2px 2px 3px rgba(0,0,0,.4);
+}
+
 .flat-section .section-content {
     width: 100%;
-    padding: 100px 0 100px;
+    padding: 0;
     position: relative;
     clear: both;
 }
@@ -78,8 +107,9 @@ img{
     margin: 20px auto 0;
 }
 
-.container{
-    padding:1rem 0;
+
+div .container:nth-of-type(2){
+    padding-top:0;
 }
 
 .bg-blue-grad{
@@ -110,6 +140,32 @@ img{
 .title{
     padding:1rem 0;
 }
+
+/* Version Menu Region */
+.version-menu .jumbotron{
+    background-image:url(/images/bg.jpg);
+    background-size:cover;
+    position:relative;
+    margin-bottom:0;
+
+    ul{
+        background-color:rgba(255,255,255,1);
+        padding:2rem;
+        //transition:.5s ease;
+        position:relative;
+
+        li{
+
+            a{
+                font-size:1.5rem;
+            }
+        }
+    }
+
+    ul:hover{
+box-shadow: 0px 17px 17px rgba(0,0,0,0.4);
+    }
+} 
 
 /* Hero & Nav area */
 
@@ -179,18 +235,28 @@ img{
 
     button{
         margin-left:1rem;
-        background-color:$main-color;
+        background-color:$pink;
         border:none;
     }
 }
 
 .quote-bar{
     transition:500ms all ease;
+    padding: 1rem 0;
+
+}
+
+.quote-bar .container{
+    padding:1rem 0;
 }
 
 
 .main-nav-wrapper{
     transition:500ms ease;
+
+    .container{
+        padding:1rem 0;
+    }
 }
 
 .jumbotron{
@@ -273,7 +339,10 @@ img{
             border: 1px solid #f5f5f5;
             box-shadow: inset 0 0 3px #d9d9d9;
             padding: 10px;
+
+            p{
             font-size:.6rem;
+        }
         }
     }
 
@@ -282,12 +351,12 @@ img{
 /* Validation Region */
 .validation{
     border-bottom:2px solid #5590cc;
-    padding:3rem 0;
+    padding: 0;
 }
 
 /* Press 2 region */
 .press-2{
-    padding:2rem 0;
+    padding:0;
 
     h2{
      margin-bottom:1.5rem;
@@ -298,6 +367,9 @@ img{
 
 .overpay{
 
+    .container{
+        border-top:1px solid $light-gray5;
+    }
 
     img{
         padding-bottom:2rem;
@@ -318,7 +390,7 @@ img{
             position: absolute;
             bottom: 18px;
             left: 0;
-            width: 100%;
+            width: 100%; 
             text-align: center;
             text-transform:capitalize;
         }
@@ -329,12 +401,12 @@ img{
 /* Rate Table Region */
 
 .rate-table{
-    padding:1.5rem 0;
+    padding: 0;
 
     .table{
 
         width:66%;
-        margin:2rem auto;
+        margin:1rem auto;
 
         thead{
             background-color:$purple;
@@ -360,7 +432,7 @@ img{
 /* Qualify Chart region */
 
 .qualify-chart{
-    padding:1.5rem 0;
+    padding:0;
 
     #myChart{
         background-color:#fff;
@@ -390,32 +462,32 @@ img{
 
 /* Gene table region */
 .gene-table{
-    padding:2rem 0;
+
 }
 
 /* Headline region */
 .headline{
-    padding: 2rem 0;
+
 }
 
 /* Venn Region */
 .venn{
-    padding:2rem 0;
+
 }
 
 /* Mortality Region */
 .mortality{
-    padding:2rem 0;
+
 }
 
 /* Partnered Region */
 .partnered{
-    padding:2rem 0;
+
 }
 
 /* Team Region */
 .team>div{
-    padding:2rem 0;
+
 }
 
 /* Mission Region */
@@ -498,24 +570,28 @@ img{
 
 .videos{
 
-    .video-btn {
-        display: inline-block;
-        margin-top: 0px;
-        height: 80px;
-        position:relative;
-        z-index:10;
-        left: 44px;
-        top: -13px;
-    }
+ .container{
+    padding:8rem 0 6rem 0;
+}
+
+.video-btn {
+    display: inline-block;
+    margin-top: 0px;
+    height: 80px;
+    position:relative;
+    z-index:10;
+    left: 44px;
+    top: -13px;
+}
 
 
-    .fa{
-       // z-index:10;
-       top: -50px;
-       font-size:2rem;
-   }
+.fa{
+   // z-index:10;
+   top: -50px;
+   font-size:2rem;
+}
 
-   a{
+a{
     position:relative;
 }
 
@@ -637,7 +713,7 @@ img{
         }
 
         .col-feature:hover{
-            box-shadow: 0px 0px 30px 0px ;
+            box-shadow: 0px 0px 30px 0px rgba(0,0,0,.3) ;
         }
 
         .col-feature:hover:before {
@@ -645,10 +721,10 @@ img{
         }
 
         .col-feature:before {
-    width: 100%;
-    height: 2px;
-    transform: translateX(-100%);
-}
+            width: 100%;
+            height: 2px;
+            transform: translateX(-100%);
+        }
 
         .col-feature:before, .col-feature:after {
             position: absolute;
@@ -684,7 +760,11 @@ img{
 /* Quote Carousel region */
 .quote-carousel-outer{
 
-    padding-top:100px;
+    padding-top:180px;
+
+    .container{
+        padding:0;
+    }
 
     #carouselExampleIndicators{
         background-color:#222;
@@ -700,17 +780,17 @@ img{
 
                 padding:0 2rem;
 
-            p{
-                font-size:1.75rem;
-                font-family:$main-font;
-                color:$white;
-            }
+                p{
+                    font-size:1.75rem;
+                    font-family:$main-font;
+                    color:$white;
+                }
 
-            .byline{
-                font-size:1.0rem;
-            }
+                .byline{
+                    font-size:1.0rem;
+                }
 
-        }
+            }
         }
     }
 }
@@ -729,7 +809,7 @@ img{
 
     .section-content{
 
-        padding:6rem 0;
+        padding:0;
 
         .process-single{
             height:300px;
@@ -765,7 +845,7 @@ img{
 
     .section-content{
 
-        padding:6rem 0;
+        padding: 0;
 
         input{
             border:none;
@@ -800,4 +880,28 @@ img{
 
 .footer .card{
     background-color:transparent;
+}
+
+/* Large devices only */
+@media (min-width:992px){
+
+}
+
+/* Medium devices and down */
+@media(max-width:992px){
+
+
+.quote-bar{
+    display:none;
+}
+}
+
+/* Medium devices only */
+@media(max-width:992px) and (min-width:768px){
+
+}
+
+/* Small devices only */
+@media(max-width:768px){
+    
 }

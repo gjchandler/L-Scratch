@@ -1,6 +1,6 @@
 <!-- Begin Form CTA 2 -->
 
-<div class="form-cta-2">
+<div class="form-cta-2 outer-element">
 
 <div class="jumbotron  d-flex align-items-center" style="">
 

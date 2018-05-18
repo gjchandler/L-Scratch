@@ -1,6 +1,6 @@
 <!-- Begin Sequencing -->
 
-<div class="sequencing">
+<div class="sequencing outer-element">
 
 <div class="container">
 

@@ -1,6 +1,6 @@
 <!-- Begin Mortality -->
 
-<div class="mortality">
+<div class="mortality outer-element">
 
 <div class="container">
 	

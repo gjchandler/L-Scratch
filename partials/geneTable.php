@@ -1,6 +1,6 @@
 <!-- Begin Gene Table -->
 
-<div class="gene-table bg-gray-4">
+<div class="gene-table bg-gray-4 outer-element">
 
 <div class="container">
 

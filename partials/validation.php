@@ -1,6 +1,6 @@
 <!-- Begin Validation -->
 
-<div class="validation">
+<div class="validation outer-element">
 
 	<div class="container">
 

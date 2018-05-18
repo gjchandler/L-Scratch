@@ -1,6 +1,6 @@
 <!-- Begin Mission -->
 
-<div class="mission">
+<div class="mission outer-element">
 
 <div class="text-white">
 

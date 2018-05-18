@@ -1,6 +1,6 @@
 <!-- Begin Team -->
 
-<div class="team">
+<div class="team outer-element">
 
 <div class="bg-dark text-white">
 

@@ -1,6 +1,6 @@
 <!-- Begin Reports -->
 
-<div class="reports">
+<div class="reports outer-element">
 
     <div class="container-fluid right-img-bg">
 

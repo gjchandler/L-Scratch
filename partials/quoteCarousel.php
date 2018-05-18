@@ -1,6 +1,6 @@
 <!-- Begin Quote Carousel -->
 
-<div class="bg-gray">
+<div class="bg-gray outer-element">
 
 	<div class="quote-carousel-outer">
 

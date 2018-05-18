@@ -1,6 +1,6 @@
 <!-- Begin Actual CTA Form -->
 
-<div class="actual-cta-form">
+<div class="actual-cta-form outer-element">
 
    <div class="box-signup-form bs-form-1">
 

@@ -1,6 +1,6 @@
 <!-- Begin Footer -->
 
-<div class="footer">
+<div class="footer outer-element">
 
 <div class="bg-dark text-white footer">
 
