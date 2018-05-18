@@ -269,11 +269,16 @@ box-shadow: 0px 17px 17px rgba(0,0,0,0.4);
     position:relative;
 }
 
+.navbar-toggler-icon{
+    height:30px;
+    width:30px;
+} 
+
 /* Hero form region */
 
 .hero-form{
 
-    background-color:$white;
+    background-color:$white; 
     padding:1rem;
     font-weight:700;
 
@@ -884,24 +889,154 @@ a{
 
 /* Large devices only */
 @media (min-width:992px){
-
+/* General Styling  */
+/* Version Menu Region */
+/* Hero & Nav area */
+/* Hero form region */
+/* Validation Region */
+/* Press 2 region */
+/* Overpay Region */
+/* Rate Table Region */
+/* Qualify Chart region */
+/* Mission Region */
+/* Gene table region */
+/* Headline region */
+/* Venn Region */
+/* Mortality Region */
+/* Partnered Region */
+/* Team Region */
+/* Mission Region */
+/* CTA white region */
+/* Evolution Region */
+/* Crazy video area set up */
+/* Report region */
+/* Freature Grid Region */
+/* Quote Carousel region */
+/* Work process region */
+/* Quote CTA Region */
+/* Footer Region */
 }
 
 /* Medium devices and down */
 @media(max-width:992px){
-
-
+/* General Styling  */
+.hide-med{
+display:none!important;
+}
+/* Version Menu Region */
+/* Hero & Nav area */
 .quote-bar{
     display:none;
 }
+
+.cta-blue{
+
+    .jumbotron{
+        background-image:url('/images/bg-mobile.jpg');
+    }
+}
+/* Hero form region */
+/* Validation Region */
+/* Press 2 region */
+/* Overpay Region */
+/* Rate Table Region */
+/* Qualify Chart region */
+/* Mission Region */
+/* Gene table region */
+/* Headline region */
+/* Venn Region */
+/* Mortality Region */
+/* Partnered Region */
+/* Team Region */
+/* Mission Region */
+/* CTA white region */
+/* Evolution Region */
+/* Crazy video area set up */
+/* Report region */
+/* Freature Grid Region */
+/* Quote Carousel region */
+/* Work process region */
+/* Quote CTA Region */
+/* Footer Region */
 }
 
 /* Medium devices only */
 @media(max-width:992px) and (min-width:768px){
-
+/* General Styling  */
+/* Version Menu Region */
+/* Hero & Nav area */
+/* Hero form region */
+/* Validation Region */
+/* Press 2 region */
+/* Overpay Region */
+/* Rate Table Region */
+/* Qualify Chart region */
+/* Mission Region */
+/* Gene table region */
+/* Headline region */
+/* Venn Region */
+/* Mortality Region */
+/* Partnered Region */
+/* Team Region */
+/* Mission Region */
+/* CTA white region */
+/* Evolution Region */
+/* Crazy video area set up */
+/* Report region */
+/* Freature Grid Region */
+/* Quote Carousel region */
+/* Work process region */
+/* Quote CTA Region */
+/* Footer Region */
 }
 
 /* Small devices only */
 @media(max-width:768px){
-    
+/* General Styling  */
+.hide-sm{
+    display:none!important;
+}
+
+.row{
+    margin-left:0;
+    margin-right:0;
+}
+/* Version Menu Region */
+/* Hero & Nav area */
+.navbar{
+
+.navbar    
+}
+
+.cta-blue{
+    .jumbotron{
+        .container{
+}
+}
+}
+
+
+/* Hero form region */
+/* Validation Region */
+/* Press 2 region */
+/* Overpay Region */
+/* Rate Table Region */
+/* Qualify Chart region */
+/* Mission Region */
+/* Gene table region */
+/* Headline region */
+/* Venn Region */
+/* Mortality Region */
+/* Partnered Region */
+/* Team Region */
+/* Mission Region */
+/* CTA white region */
+/* Evolution Region */
+/* Crazy video area set up */
+/* Report region */
+/* Freature Grid Region */
+/* Quote Carousel region */
+/* Work process region */
+/* Quote CTA Region */
+/* Footer Region */    
 }

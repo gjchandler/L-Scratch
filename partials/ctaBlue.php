@@ -8,7 +8,7 @@
 
 			<div class="row">
 
-				<div class="col-12 col-md-7 d-flex align-items-center text-white">
+				<div class="col-12 col-md-12 col-lg-7 d-flex align-items-center text-white">
 
 					<div class="">
 
@@ -23,7 +23,7 @@
 
 				</div>
 
-				<div class="col-12 col-md-5 d-flex align-items-center">
+				<div class="col-12 col-md-12 col-lg-5 d-flex hide-sm align-items-center">
 
 					<div class="">
 
