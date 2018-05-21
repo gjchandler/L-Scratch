@@ -18,7 +18,7 @@
 
 			</div>
 
-			<div class="col-12 d-flex align-items-center justify-content-center">
+			<div class="col-12 d-flex align-items-center justify-content-center text-center">
 
 				<h3>Phone: 800-000-0000 • Available Monday - Friday 7am - 6pm CST</h3>
 

@@ -14,7 +14,9 @@
 
 		<div class="col-12 d-flex align-items-center">
 
-			<img src="images/press.png" alt="">
+			<img src="images/press.png" alt="" class="hide-med">
+
+			<img src="images/press-mobile.png" alt="" class="hide-lg">
 
 		</div>
 

@@ -22,11 +22,15 @@ h1 {
 
 h2 {
   margin-bottom: 1rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #525252;
+  font-weight: 700; }
 
 h3 {
   margin-bottom: 1rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #525252;
+  font-weight: 700; }
 
 p {
   color: #888; }
@@ -100,14 +104,20 @@ div .container:nth-of-type(2) {
   background-size: cover;
   position: relative;
   margin-bottom: 0; }
+  .version-menu .jumbotron h1 {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4); }
   .version-menu .jumbotron ul {
-    background-color: white;
     padding: 2rem;
-    position: relative; }
-    .version-menu .jumbotron ul li a {
-      font-size: 1.5rem; }
-  .version-menu .jumbotron ul:hover {
-    box-shadow: 0px 17px 17px rgba(0, 0, 0, 0.4); }
+    position: relative;
+    list-style-type: none;
+    margin-bottom: 0; }
+    .version-menu .jumbotron ul li {
+      margin-bottom: 2rem; }
+      .version-menu .jumbotron ul li a {
+        font-size: 1.5rem;
+        color: #ebe8e8;
+        font-weight: 700;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4); }
 
 /* Hero & Nav area */
 .form-cta-2 .col-12:nth-of-type(1) {
@@ -133,11 +143,18 @@ div .container:nth-of-type(2) {
 
 .cta-blue .jumbotron {
   background-image: url(/images/bg.jpg);
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  position: relative; }
   .cta-blue .jumbotron .col-12:nth-of-type(1) {
-    text-shadow: 2px 2px 10px rgba(102, 101, 58, 0.8); }
+    text-shadow: 2px 2px 10px rgba(15, 16, 31, 0.9); }
     .cta-blue .jumbotron .col-12:nth-of-type(1) p {
       color: #ebe8e8; }
+
+.cta-blue .waves {
+  width: 100%;
+  bottom: -3px;
+  left: 0;
+  position: absolute; }
 
 .quote-bar-wrapper {
   top: 10px;
@@ -298,11 +315,52 @@ div .container:nth-of-type(2) {
       color: #ebe8e8; }
 
 /* Gene table region */
+.gene-table table {
+  background-color: #ebe8e8; }
+  .gene-table table thead {
+    color: #ebe8e8;
+    background-color: #525252;
+    text-align: center; }
+    .gene-table table thead th {
+      border-left: 1px solid #ebe8e8;
+      border-right: 1px solid #ebe8e8; }
+  .gene-table table tbody tr {
+    background-color: #fff; }
+  .gene-table table td {
+    border-left: 1px solid #ebe8e8;
+    border-right: 1px solid #ebe8e8; }
+
 /* Headline region */
 /* Venn Region */
 /* Mortality Region */
 /* Partnered Region */
+/* Image Full Width region */
+.image-full-width div {
+  background-size: cover;
+  padding-bottom: 400px;
+  background-position: center; }
+
 /* Team Region */
+.team .team-columns .team-inner {
+  background-color: #ebe8e8;
+  color: #525252;
+  text-align: center;
+  padding: .25rem;
+  margin: 1.5rem 2.5rem;
+  display: block;
+  width: 172px;
+  height: 225px; }
+  .team .team-columns .team-inner .team-body {
+    padding: 0 .25rem; }
+  .team .team-columns .team-inner p {
+    margin-bottom: 0;
+    font-size: .75rem; }
+  .team .team-columns .team-inner h5 {
+    margin-bottom: 0;
+    font-size: 1.1rem; }
+  .team .team-columns .team-inner img {
+    margin-bottom: .5rem; }
+
 /* Mission Region */
 /* CTA white region */
 .cta-white button {
@@ -551,6 +609,8 @@ div .container:nth-of-type(2) {
 
 /* Large devices only */
 @media (min-width: 992px) {
+  .hide-lg {
+    display: none !important; }
   /* General Styling  */
   /* Version Menu Region */
   /* Hero & Nav area */
@@ -593,6 +653,8 @@ div .container:nth-of-type(2) {
   /* Validation Region */
   /* Press 2 region */
   /* Overpay Region */
+  .overpay .col-md-4 {
+    margin-bottom: 3rem; }
   /* Rate Table Region */
   /* Qualify Chart region */
   /* Mission Region */
@@ -665,6 +727,8 @@ div .container:nth-of-type(2) {
   /* Mortality Region */
   /* Partnered Region */
   /* Team Region */
+  .team .team-columns .team-inner {
+    margin: .75rem auto; }
   /* Mission Region */
   /* CTA white region */
   /* Evolution Region */

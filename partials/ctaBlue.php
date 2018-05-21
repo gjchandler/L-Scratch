@@ -1,6 +1,6 @@
 <!-- Begin CTA Blue-->
 
-<div class="cta-blue  outer-element">
+<div class="cta-blue ">
 
 	<div class="jumbotron  d-flex align-items-center">
 
@@ -237,7 +237,11 @@
 
 		</div>
 
+<img src="images/waves.svg" alt="" class="waves">
+
 	</div>
+
+
 
 </div>
 
