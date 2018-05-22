@@ -2,9 +2,9 @@
 
 <div class="feature-grid outer-element">
 
-	<div class="flat-section core-features bg-gray-2">
+	<div class="flat-section core-features">
 
-		<div class="section-content bg-gray">
+		<div class="section-content">
 
 			<div class="container">
 

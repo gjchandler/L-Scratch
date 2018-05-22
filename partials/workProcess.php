@@ -2,7 +2,7 @@
 
 <div class="work-process outer-element" >
 
-  <div class="section-content bg-gray">
+  <div class="section-content">
 
     <div class="container">
 

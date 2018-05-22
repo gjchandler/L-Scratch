@@ -1,6 +1,6 @@
 <!-- Begin CTA White -->
 
-<div class="cta-white bg-gray-4 outer-element">
+<div class="cta-white outer-element">
 
 	<div class="container">
 

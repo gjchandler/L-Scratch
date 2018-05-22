@@ -1,6 +1,8 @@
 <!-- Begin Age -->
 
-<div class="container" class="age  outer-element">
+<div class="age outer-element">
+
+<div class="container">
 
 	<div class="row">
 
@@ -19,6 +21,8 @@
 		</div>
 
 	</div>
+
+</div>
 
 </div>
 

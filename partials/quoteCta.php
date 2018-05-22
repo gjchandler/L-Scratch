@@ -2,7 +2,7 @@
 
 <div class="quote-cta  outer-element">
 
-<div class="section-content bg-white">
+<div class="section-content">
 
   <div class="container">
 

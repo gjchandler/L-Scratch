@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="containerradiation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 164 204" enable-background="new 0 0 164 204" xml:space="preserve">
+<g>
+	<rect x="28" y="168" fill="#D8D8D8" width="108" height="12"/>
+	<polygon fill="#FFFFFF" points="8,152 8,160 156,160 156,152 144,152 20,152 	"/>
+	<rect x="8" y="8" fill="#FFFFFF" width="148" height="8"/>
+	<path fill="#D8D8D8" d="M84,128c13.2344,0,24-10.7656,24-24S97.2344,80,84,80s-24,10.7656-24,24S70.7656,128,84,128z M80,92h8
+		v10.071l9.4648,5.4641l-4,6.9297l-9.7949-5.6545l-9.7949,5.6545l-4-6.9297L80,101.6899V92z"/>
+	<rect x="8" y="188" fill="#FFFFFF" width="148" height="8"/>
+	<rect x="28" y="24" fill="#D8D8D8" width="108" height="12"/>
+	<polygon fill="#FFFFFF" points="8,52 20,52 144,52 156,52 156,44 8,44 	"/>
+	<path fill="#D8D8D8" d="M28,144h108V60H28V144z M84,72c17.6445,0,32,14.3555,32,32s-14.3555,32-32,32s-32-14.3555-32-32
+		S66.3555,72,84,72z"/>
+	<path fill="#535353" d="M164,24V0H0v24h20v12H0v24h20v84H0v24h20v12H0v24h164v-24h-20v-12h20v-24h-20V60h20V36h-20V24H164z M8,8
+		h148v8H8V8z M156,196H8v-8h148V196z M136,180H28v-12h108V180z M156,152v8H8v-8h12h124H156z M136,144H28V60h108V144z M156,52h-12H20
+		H8v-8h148V52z M136,36H28V24h108V36z"/>
+	<path fill="#535353" d="M84,136c17.6445,0,32-14.3555,32-32s-14.3555-32-32-32s-32,14.3555-32,32S66.3555,136,84,136z M84,80
+		c13.2344,0,24,10.7656,24,24s-10.7656,24-24,24s-24-10.7656-24-24S70.7656,80,84,80z"/>
+	<polygon fill="#535353" points="73.875,114.4648 83.6699,108.8103 93.4648,114.4648 97.4648,107.5352 88,102.071 88,92 80,92 
+		80,101.6899 69.875,107.5352 	"/>
+</g>
+</svg>

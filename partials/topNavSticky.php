@@ -10,7 +10,7 @@
 
 <nav class="navbar main-nav navbar-expand-lg ">
 
-  <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+  <a class="navbar-brand d-flex align-items-center justify-content-center" href="#"><div class="logo-wrap"><img src="images/logo.png" alt=""></div></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 

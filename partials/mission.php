@@ -19,7 +19,7 @@
 
 			<div class="col-12 d-flex align-items-center justify-content-center">
 
-				<img src="images/logo.png" alt="">
+				<img src="images/logo-small.png" alt="">
 
 			</div>
 

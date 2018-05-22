@@ -2,7 +2,7 @@
 
 <div class="team outer-element">
 
-	<div class="bg-dark text-white">
+	<div class="">
 
 		<div class="container">
 
@@ -37,7 +37,7 @@
 								<div class="team-inner">
 
 
-									<img src="http://via.placeholder.com/150x150" alt="">
+									<img src="images/team/L_team_Jon_Sabes150x150.jpg" alt="">
 
 									<div class="team-body">
 
@@ -55,7 +55,7 @@
 
 							<div class="team-inner">
 
-								<img src="http://via.placeholder.com/150x150" alt="">
+								<img src="images/team/L_team_Brian_Chen150x150.jpg" alt="">
 
 								<div class="team-body">
 
@@ -73,7 +73,7 @@
 
 							<div class="team-inner">
 
-								<img src="http://via.placeholder.com/150x150" alt="">
+								<img src="images/team/L_team_Steve_Sabes150x150.jpg" alt="">
 
 								<div class="team-body">
 
@@ -91,7 +91,7 @@
 
 							<div class="team-inner">
 
-								<img src="http://via.placeholder.com/150x150" alt="">
+								<img src="images/team/L_team_Tom_Nodine150x150.jpg" alt="">
 
 								<div class="team-body">
 
@@ -109,7 +109,7 @@
 
 							<div class="team-inner">
 
-								<img src="http://via.placeholder.com/150x150" alt="">
+								<img src="images/team/L_team_Bill_Acheson150x150.jpg" alt="">
 
 								<div class="team-body">
 
@@ -127,7 +127,7 @@
 
 							<div class="team-inner">
 
-								<img src="http://via.placeholder.com/150x150" alt="">
+								<img src="images/team/L_team_Michael_Curran150x150.jpg" alt="">
 
 								<div class="team-body">
 
@@ -145,7 +145,7 @@
 
 							<div class="team-inner">
 
-								<img src="http://via.placeholder.com/150x150" alt="">
+								<img src="images/team/L_team_Randy_Olson150x150.jpg" alt="">
 
 								<div class="team-body">
 
@@ -163,7 +163,7 @@
 
 							<div class="team-inner">
 
-								<img src="http://via.placeholder.com/150x150" alt="">
+								<img src="images/team/L_team_John_Vilsack150x150.jpg" alt="">
 
 								<div class="team-body">
 
@@ -181,7 +181,7 @@
 
 							<div class="team-inner">
 
-								<img src="http://via.placeholder.com/150x150" alt="">
+								<img src="images/team/L_team_Shileen_Weber150x150.jpg" alt="">
 
 								<div class="team-body">
 
@@ -199,7 +199,7 @@
 
 							<div class="team-inner">
 
-								<img src="http://via.placeholder.com/150x150" alt="">
+								<img src="images/team/L_team_Dan_Callahan150x150.jpg" alt="">
 
 								<div class="team-body">
 

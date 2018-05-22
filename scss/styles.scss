@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700');
 $main-font: 'Ubuntu', sans-serif;
 $p-font: 'Roboto', sans-serif;
-$white:#ebe8e8;
+$white:#f1f1f1;
 $main-color:#25387d;
 $light-blue: #5590cc;
 $teal: #00c2f9;
 $gray: #525252;
 $light-gray:#dee2e6;
-$light-gray2:#cfccce;
+$light-gray2:#dedede;
 $light-gray3:#c0eaf5;
 $light-gray4:#eaeaea;
 $light-gray5:#dadada;
@@ -20,7 +20,7 @@ $pink:#ec2a90;
 /* General Styling  */
 *{
   font-size:16px;
-  transition: .5s ease;
+  //transition: .5s ease;
 }
 
 
@@ -63,12 +63,28 @@ p{
     color:#888;
 }
 
+ul{ 
+   list-style-image: url('/images/bullet.png');
+
+    li{
+        margin-bottom:1rem;
+    }
+}
+
 img{
 	max-width:100%;
 }
 
 .container{
     padding:5rem 0;
+}
+
+.outer-element:nth-of-type(n+6):nth-of-type(even){
+    background-color:$white;
+}
+
+.outer-element:nth-of-type(n+6):nth-of-type(odd){
+    background-color:$light-gray2;
 }
 
 .jumbotron{
@@ -279,6 +295,13 @@ div .container:nth-of-type(2){
 
     .container{
         padding:1rem 0;
+    }
+
+    ul{
+
+        li{
+            margin-bottom:0;
+        }
     }
 }
 
@@ -523,21 +546,33 @@ div .container:nth-of-type(2){
 /* Headline region */
 .headline{
 
+.text{
+    padding:1rem 3rem;
+}
 }
 
 /* Venn Region */
 .venn{
 
+.text{
+    padding:1rem 3rem;
+}
 }
 
 /* Mortality Region */
 .mortality{
 
+.text{
+    padding:1rem 3rem;
+}
 }
 
 /* Partnered Region */
 .partnered{
 
+.text{
+    padding:1rem 3rem;
+}
 }
 
 /* Image Full Width region */
@@ -551,7 +586,16 @@ div .container:nth-of-type(2){
 }
 
 /* Team Region */
-.team{
+.team.outer-element{
+background-color:$gray!important;
+
+h2{
+color:$white;
+}
+
+p{
+color:$white;    
+}
 
     .team-columns{
 
@@ -559,12 +603,14 @@ div .container:nth-of-type(2){
             background-color:$white;
             color:$gray;
             text-align:center;
+            transition:.5s ease;
 
-            padding:.25rem;
+            padding:.75rem .25rem .25rem .25rem;
             margin:1.5rem 2.5rem;
             display:block;
             width:172px;
             height:225px;
+            box-shadow:0px 2px 3px rgba(0,0,0,0.6);
 
             .team-body{
                 padding:0 .25rem; 
@@ -573,27 +619,39 @@ div .container:nth-of-type(2){
             p{
                 margin-bottom:0;
                 font-size:.75rem;
+                color:inherit;
             }
 
             h5{
                 margin-bottom:0;
-                font-size:1.1rem;
+                font-size:1.0rem;
+                
             }
 
             img{
                 margin-bottom:.5rem;
             }
         }
+
+        .team-inner:hover{
+            transform:scale(1.05);
+            box-shadow:0px 5px 6px rgba(0,0,0,0.4);
+        }  
     }
 }
 
 /* Mission Region */
 .mission{
 
+h2{
+    color:$white;
+}
 }
 
 /* CTA white region */
 .cta-white{
+
+    line-height:200%;
 
     button{
         margin-bottom:1rem;
@@ -985,6 +1043,38 @@ a{
     /* General Styling  */
     /* Version Menu Region */
     /* Hero & Nav area */
+    .main-nav-wrapper{
+
+        .navbar{
+
+            .nav-link{
+                    padding-right: 0rem;
+    padding-left: 2.5rem;
+            }
+
+            .navbar-brand{
+                width:190px;
+                height:62px;
+                  
+                .logo-wrap{
+                    position:relative;
+                    width:190px;
+                    height:68px;
+                    overflow:visible;
+
+
+                img{
+                    position:absolute;
+                    top:-25px;
+                    left:0;
+                    width:190px;
+                    height:150px;
+
+                }
+            }
+            }
+        }
+    }
     /* Hero form region */
     /* Validation Region */
     /* Press 2 region */

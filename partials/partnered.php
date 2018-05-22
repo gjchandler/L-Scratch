@@ -12,7 +12,7 @@
 
 		</div>
 
-		<div class="col-sm-12 col-md-5 col-lg-5 d-flex align-items-center justify-content-center">
+		<div class="col-sm-12 col-md-5 col-lg-5 d-flex align-items-center justify-content-center text">
 
 			<div>
 

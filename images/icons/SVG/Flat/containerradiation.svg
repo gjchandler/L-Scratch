@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="containerradiation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 156 204" enable-background="new 0 0 156 204" xml:space="preserve">
+<g>
+	<rect x="20" y="24" fill="#99D59D" width="116" height="12"/>
+	<rect x="20" y="168" fill="#99D59D" width="116" height="12"/>
+	<polygon fill="#49A25A" points="156,24 156,0 0,0 0,24 20,24 136,24 	"/>
+	<path fill="#99D59D" d="M20,144h116V60H20V144z M80,72c17.6443,0,32,14.3557,32,32c0,17.6445-14.3557,32-32,32
+		c-17.6445,0-32-14.3555-32-32C48,86.3557,62.3555,72,80,72z"/>
+	<polygon fill="#49A25A" points="0,36 0,60 20,60 136,60 156,60 156,36 136,36 20,36 	"/>
+	<polygon fill="#49A25A" points="0,144 0,168 20,168 136,168 156,168 156,144 136,144 20,144 	"/>
+	<polygon fill="#49A25A" points="0,180 0,204 156,204 156,180 136,180 20,180 	"/>
+	<path fill="#FCC24C" d="M80,136c17.6443,0,32-14.3555,32-32c0-17.6443-14.3557-32-32-32c-17.6445,0-32,14.3557-32,32
+		C48,121.6445,62.3555,136,80,136z M76,92h8v10.0705l9.4647,5.4648l-4,6.9296l-9.7927-5.6524l-9.7969,5.6524l-4-6.9296L76,101.6917
+		V92z"/>
+	<polygon fill="#FF427A" points="69.8751,114.4649 79.672,108.8125 89.4647,114.4649 93.4647,107.5353 84,102.0705 84,92 76,92 
+		76,101.6917 65.8751,107.5353 	"/>
+</g>
+</svg>
