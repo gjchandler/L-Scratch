@@ -16,6 +16,8 @@ $light-gray5:#dadada;
 $light-gray6:#757575;
 $purple: #544fd9;
 $pink:#ec2a90;
+$inactive-shadow:0 0 7px 0 rgba(0,0,0,0.3);
+$active-shadow:0 6px 12px 0 rgba(0,0,0,0.4);
 
 /* General Styling  */
 *{
@@ -64,19 +66,37 @@ p{
 }
 
 ul{ 
-   list-style-image: url('/images/bullet.png');
+ list-style-image:url('/images/bullet.png');
 
-    li{
-        margin-bottom:1rem;
-    }
+ li{
+    margin-bottom:1rem;
+}
 }
 
 img{
+
 	max-width:100%;
+}
+
+table{
+    box-shadow:$inactive-shadow;
+}
+
+button, input[type=submit]{
+    box-shadow:$inactive-shadow;
+    transition:.5s ease;
+}
+
+button:hover,input[type=submit]:hover,.btn:hover{
+    box-shadow:$active-shadow;
 }
 
 .container{
     padding:5rem 0;
+}
+
+.outer-element{
+    box-shadow:0 0px 5px rgba(0,0,0,0.4);
 }
 
 .outer-element:nth-of-type(n+6):nth-of-type(even){
@@ -103,13 +123,7 @@ img{
     background-color:$main-color;
 }
 
-.outer-element{
-    box-shadow:0 2px 4px rgba(0,0,0,0.2);
-}
 
-button:hover,input[type=submit]:hover,.btn:hover{
-    box-shadow:2px 2px 3px rgba(0,0,0,.4);
-}
 
 .flat-section .section-content {
     width: 100%;
@@ -157,13 +171,17 @@ div .container:nth-of-type(2){
     background-color:$white !important;
 }
 
+.chartjs-render-monitor{
+    box-shadow:$inactive-shadow;
+}
+
 .title{
     padding:1rem 0;
 }
 
 /* Version Menu Region */
 .version-menu .jumbotron{
-    background-image:url(/images/bg.jpg);
+    background-image:url('/images/bg.jpg');
     background-size:cover;
     position:relative;
     margin-bottom:0;
@@ -177,7 +195,9 @@ div .container:nth-of-type(2){
         //transition:.5s ease;
         position:relative;
         list-style-type:none;
+        list-style-image: none;
         margin-bottom:0;
+
 
         li{
             margin-bottom:2rem;
@@ -253,7 +273,8 @@ div .container:nth-of-type(2){
         bottom:-3px;
         left:0;
         position:absolute;
-    } 
+    }
+
 }
 
 .quote-bar-wrapper{
@@ -319,6 +340,47 @@ div .container:nth-of-type(2){
     height:30px;
     width:30px;
 } 
+
+/* Hero arrow region */
+
+@-webkit-keyframes uparrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(-0.4em); opacity: 0.9 }
+}
+@-webkit-keyframes downarrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
+}
+
+
+.arrow {
+  border-color:transparent;
+  border-style:solid;
+  border-width:0 2em;
+  display:block;
+  height:0;
+  margin:10em auto;
+  opacity:0.4;
+  text-indent:-9999px;
+  transform-origin: 50% 50%;
+  width:0;
+  position: absolute;
+  bottom: -138px;
+  left: 50%;
+  margin-left:-2em;
+  z-index: 10;
+}
+
+.up {
+  -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
+  border-bottom:2em solid $teal;
+}
+
+.down {
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+  border-top:2em solid $teal;
+}
+
 
 /* Hero form region */
 
@@ -410,8 +472,8 @@ div .container:nth-of-type(2){
     padding:0;
 
     h2{
-     margin-bottom:1.5rem;
- }
+       margin-bottom:1.5rem;
+   }
 }
 
 /* Overpay Region */
@@ -427,10 +489,10 @@ div .container:nth-of-type(2){
     }
 
     .col-md-4{
-       padding-bottom:3rem;
-   }
+     padding-bottom:3rem;
+ }
 
-   .col-12{
+ .col-12{
 
 
 
@@ -454,7 +516,7 @@ div .container:nth-of-type(2){
 .rate-table{
     padding: 0;
 
-    .table{
+    table{
 
         width:66%;
         margin:1rem auto;
@@ -487,6 +549,8 @@ div .container:nth-of-type(2){
 
     #myChart{
         background-color:#fff;
+        width:400px;
+        height:200px;
     }
 
 }
@@ -494,10 +558,9 @@ div .container:nth-of-type(2){
 /* Mission Region */
 
 .mission{
-    background-image:url('/images/bg.jpg');
+    background-image: url('/images/bg.jpg'); 
     background-size:cover;
     background-position-y:top;
-    
     background-repeat:no-repeat;
 
 
@@ -509,7 +572,7 @@ div .container:nth-of-type(2){
             color:$white;
         }
     }
-}
+}  
 
 /* Gene table region */
 .gene-table{
@@ -523,56 +586,56 @@ div .container:nth-of-type(2){
             text-align:center;
 
             th{
-                 border-left:1px solid $white;
-            border-right:1px solid $white;
-            }
-        }
+               border-left:1px solid $white;
+               border-right:1px solid $white;
+           }
+       }
 
-        tbody{
-            tr{
-                background-color:#fff;
+       tbody{
+        tr{
+            background-color:#fff;
 
 
-            }
-        }
-
-        td{
-            border-left:1px solid $white;
-            border-right:1px solid $white;
         }
     }
+
+    td{
+        border-left:1px solid $white;
+        border-right:1px solid $white;
+    }
+}
 }
 
 /* Headline region */
 .headline{
 
-.text{
-    padding:1rem 3rem;
-}
+    .text{
+        padding:1rem 3rem;
+    }
 }
 
 /* Venn Region */
 .venn{
 
-.text{
-    padding:1rem 3rem;
-}
+    .text{
+        padding:1rem 3rem;
+    }
 }
 
 /* Mortality Region */
 .mortality{
 
-.text{
-    padding:1rem 3rem;
-}
+    .text{
+        padding:1rem 3rem;
+    }
 }
 
 /* Partnered Region */
 .partnered{
 
-.text{
-    padding:1rem 3rem;
-}
+    .text{
+        padding:1rem 3rem;
+    }
 }
 
 /* Image Full Width region */
@@ -582,20 +645,21 @@ div .container:nth-of-type(2){
         background-size:cover;
         padding-bottom:400px;
         background-position:center;
+        background-image:url('/images/blue-fullwidth.jpg');
     }
 }
 
 /* Team Region */
 .team.outer-element{
-background-color:$gray!important;
+    background-color:$gray!important;
 
-h2{
-color:$white;
-}
+    h2{
+        color:$white;
+    }
 
-p{
-color:$white;    
-}
+    p{
+        color:$white;    
+    }
 
     .team-columns{
 
@@ -643,15 +707,18 @@ color:$white;
 /* Mission Region */
 .mission{
 
-h2{
-    color:$white;
-}
+    h2{
+        color:$white;
+    }
 }
 
 /* CTA white region */
 .cta-white{
 
-    line-height:200%;
+    h2,h3{
+        line-height:275%;
+    }
+    
 
     button{
         margin-bottom:1rem;
@@ -668,7 +735,7 @@ h2{
 /* Evolution Region */
 .evolution{
 
- i{
+   i{
     font-size:5rem;
     margin-bottom:2rem;
     color:$main-color;
@@ -677,6 +744,15 @@ h2{
 }
 
 .services{
+
+    .row:hover > .col-md-4{
+      -webkit-filter: brightness(.5);
+      filter: brightness(.5);
+  }
+
+  .row{
+    transition: ease .5s;
+    
 
     .col-md-4{
         height:300px;
@@ -689,6 +765,8 @@ h2{
         transform: scale(1.1);
         box-shadow:0px 0px 10px rgba(0,0,0,.65);
         z-index:10;
+        -webkit-filter: brightness(1);
+        filter: brightness(1);
     }
 
     i{
@@ -711,13 +789,14 @@ h2{
             opacity:1;
         }
     }
+}
 
-    .theme-bg{
+.theme-bg{
 
-        h3,p,i{
-            color:$white;
-        }
+    h3,p,i{
+        color:$white;
     }
+}
 }
 
 
@@ -725,7 +804,7 @@ h2{
 
 .videos{
 
- .container{
+   .container{
     padding:8rem 0 6rem 0;
 }
 
@@ -741,9 +820,9 @@ h2{
 
 
 .fa{
-   // z-index:10;
-   top: -50px;
-   font-size:2rem;
+ // z-index:10;
+ top: -50px;
+ font-size:2rem;
 }
 
 a{
@@ -763,19 +842,19 @@ a{
     //left:0%;
 
     div{
-       position: absolute;
-       top:0;
-       left:0%;
-       background: white;
-       width: 50px;
-       height: 50px;
-       content: "";
-       display: block;
-       border-radius: 50%;
-       -webkit-backface-visibility: hidden;
-       opacity: 0;  
-       //z-index:1;
-   }
+     position: absolute;
+     top:0;
+     left:0%;
+     background: white;
+     width: 50px;
+     height: 50px;
+     content: "";
+     display: block;
+     border-radius: 50%;
+     -webkit-backface-visibility: hidden;
+     opacity: 0;  
+     //z-index:1;
+ }
 }
 
 .waves .wave-one {
@@ -860,6 +939,7 @@ a{
             transition: all 0.3s ease-in-out;
             overflow: hidden;
             height:300px;
+            box-shadow:$inactive-shadow;
 
             .fa{
                 font-size:3rem;
@@ -913,6 +993,10 @@ a{
 }
 
 /* Quote Carousel region */
+.quote-carousel-outer.outer-element{
+    box-shadow:none;
+}
+
 .quote-carousel-outer{
 
     padding-top:180px;
@@ -971,18 +1055,19 @@ a{
             background-color:$white;
             padding:30px;
             transition: all 0.3s ease-in-out;
+            box-shadow:$inactive-shadow;
 
             .badge{
-               position: absolute;
-               top: 15px;
-               left: 15px;
-               font-size: 90px;
-               font-weight: 400;
-               color: $light-gray;
-               line-height: 1; 
-           }
+             position: absolute;
+             top: 15px;
+             left: 15px;
+             font-size: 90px;
+             font-weight: 400;
+             color: $light-gray;
+             line-height: 1; 
+         }
 
-           .fa{
+         .fa{
             color:$main-color;
             margin-bottom:2.5rem;
         }
@@ -1028,7 +1113,7 @@ a{
 }
 
 .footer{
- ul{
+   ul{
     list-style-type:none;
 }
 }
@@ -1048,14 +1133,14 @@ a{
         .navbar{
 
             .nav-link{
-                    padding-right: 0rem;
-    padding-left: 2.5rem;
+                padding-right: 0rem;
+                padding-left: 2.5rem;
             }
 
             .navbar-brand{
                 width:190px;
                 height:62px;
-                  
+
                 .logo-wrap{
                     position:relative;
                     width:190px;
@@ -1063,15 +1148,15 @@ a{
                     overflow:visible;
 
 
-                img{
-                    position:absolute;
-                    top:-25px;
-                    left:0;
-                    width:190px;
-                    height:150px;
+                    img{
+                        position:absolute;
+                        top:-25px;
+                        left:0;
+                        width:190px;
+                        height:150px;
 
+                    }
                 }
-            }
             }
         }
     }
@@ -1108,45 +1193,113 @@ a{
     }
     /* Version Menu Region */
     /* Hero & Nav area */
-    .quote-bar{
-        display:none;
+    .main-nav-wrapper{
+        box-shadow: 0 0px 5px rgba(0, 0, 0, 0.4);
+
+        .container{
+            padding: 0;
+        }
+
+        nav{
+            padding:0;
+
+            .navbar-nav{
+                padding-bottom:1rem;
+            }
+        }
+
+        .logo-wrap{
+
+            img{
+             width: 70px;
+         }
+     }
+ }
+
+ .quote-bar{
+     display:none;
+ }
+
+ .cta-blue{
+
+    .jumbotron{
+        background-image:url('/images/bg-mobile.jpg');
     }
+}
+/* Hero form region */
+/* Validation Region */
+/* Press 2 region */
+/* Overpay Region */
+.overpay{
 
-    .cta-blue{
+    .col-md-4{
+        margin-bottom:3rem;
+    }
+}
+/* Rate Table Region */
+.rate-table{
 
-        .jumbotron{
-            background-image:url('/images/bg-mobile.jpg');
+    table{
+        width:inherit;
+    }
+}
+/* Qualify Chart region */
+.qualify-chart{
+
+    .chart-col{
+        //min-height:500px;
+    } 
+
+    #myChart{
+        // height:1vh!important;
+        // width:400px;
+    }
+}
+
+/* Mission Region */
+/* Gene table region */
+.gene-table{
+
+   table{
+    width:inherit;
+}
+}
+/* Headline region */
+/* Venn Region */
+/* Mortality Region */
+/* Partnered Region */
+/* Image Full Width region */
+/* Team Region */
+.team{
+
+    .team-columns{
+        .team-inner{
+            margin:1.5rem auto!important;
+            //width:100%;
         }
     }
-    /* Hero form region */
-    /* Validation Region */
-    /* Press 2 region */
-    /* Overpay Region */
-    .overpay{
+}
+/* Mission Region */
+/* CTA white region */
+/* Evolution Region */
+/* Crazy video area set up */
+/* Report region */
+/* Freature Grid Region */
 
-        .col-md-4{
-            margin-bottom:3rem;
+.feature-grid{
+
+    .col-features{
+
+        .col-feature{
+
+            height:400px;
         }
     }
-    /* Rate Table Region */
-    /* Qualify Chart region */
-    /* Mission Region */
-    /* Gene table region */
-    /* Headline region */
-    /* Venn Region */
-    /* Mortality Region */
-    /* Partnered Region */
-    /* Team Region */
-    /* Mission Region */
-    /* CTA white region */
-    /* Evolution Region */
-    /* Crazy video area set up */
-    /* Report region */
-    /* Freature Grid Region */
-    /* Quote Carousel region */
-    /* Work process region */
-    /* Quote CTA Region */
-    /* Footer Region */
+}
+/* Quote Carousel region */
+/* Work process region */
+/* Quote CTA Region */
+/* Footer Region */
 }
 
 /* Medium devices only */
@@ -1166,6 +1319,7 @@ a{
     /* Venn Region */
     /* Mortality Region */
     /* Partnered Region */
+    /* Image Full Width region */
     /* Team Region */
     /* Mission Region */
     /* CTA white region */
@@ -1190,6 +1344,15 @@ a{
         margin-left:0;
         margin-right:0;
     }
+
+    h2{
+        padding: 0 1rem;
+    }
+
+    h4{
+        margin-bottom:2rem;
+        margin-top:2.5rem;
+    }
     /* Version Menu Region */
     /* Hero & Nav area */
 
@@ -1213,24 +1376,126 @@ a{
     /* Venn Region */
     /* Mortality Region */
     /* Partnered Region */
+    .image-full-width{
+        div{
+            background-position-x:right;
+            background-image:url('/images/blue-fullwidth-mobile.jpg');
+        }
+    }
+    /* Image Full Width region */
     /* Team Region */
     .team{
 
         .team-columns{
             .team-inner{
-                margin:.75rem auto;;
+                margin:1.5rem auto!important;
                 //width:100%;
             }
         }
     }
     /* Mission Region */
     /* CTA white region */
+    .cta-white{
+
+        button{
+            margin: 1rem 0 2rem;
+        }
+
+        h2,h3{
+            line-height:150%;
+        }
+    }
     /* Evolution Region */
+    /* Services Region */
+    .services{
+
+        .container-fluid{
+            padding:5rem 1rem;;
+        }
+
+        .row{
+
+            .col-md-4{
+                margin:2rem 0rem;
+            }
+        }
+    }
     /* Crazy video area set up */
+    .videos{
+
+        .video-btn{
+            left: 28px;
+        }
+
+        .waves{
+            left: -18px;
+        }
+    }
     /* Report region */
+    .reports{
+        background-position-x: center;
+        background-position-y: bottom;
+        background-size: 120%;
+
+        .container-fluid{
+            padding:0;
+
+            .row{
+
+                .row{
+                    padding:140px 1rem;
+
+                    h2{
+                        padding:0;
+                    }
+                }
+            }
+
+            .background{
+                height:300px;
+            }
+
+            .col-sm-12{
+                padding:0;
+            }
+        }
+    }
     /* Freature Grid Region */
+
+    .feature-grid{
+
+        .mockup{
+            display:none;
+        }
+    }
     /* Quote Carousel region */
+    .quote-carousel-outer{
+
+        #carouselExampleIndicators{
+
+            .quote{
+                padding:2rem;
+
+                .quote-inner{
+
+                    p{
+                        font-size:1.25rem;
+                    }
+                }
+            }
+        }
+    }
     /* Work process region */
+    .work-process{
+
+        .section-content{
+
+            .process-single{
+                margin:2rem auto;
+
+            }
+        }
+    }
     /* Quote CTA Region */
     /* Footer Region */    
 }

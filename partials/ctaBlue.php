@@ -27,7 +27,7 @@
 
 					<div class="">
 
-					<?php   include 'partials/heroForm1.php'; ?>
+						<?php   include 'partials/heroForm1.php'; ?>
 
 					</div>
 
@@ -36,6 +36,8 @@
 			</div>
 
 		</div>
+
+		 <a href="#" class="arrow down">Down</a>
 
 		<img src="images/waves.svg" alt="" class="waves">
 

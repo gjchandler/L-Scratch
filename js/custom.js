@@ -1,7 +1,7 @@
 //Controls the navbar scroll visibility toggle
 $(window).scroll(function(){
 	
-	if ($(window).width() > 768) {
+	if ($(window).width() > 992) {
 		$('.navbar-nav').toggleClass('d-none', $(this).scrollTop() < 50);
 		$('.main-nav-wrapper').toggleClass('bg-light', $(this).scrollTop() > 50);
 		$('.main-nav-wrapper').toggleClass('outer-element', $(this).scrollTop() > 50);
@@ -13,7 +13,7 @@ $(window).scroll(function(){
 	
 });
 
-if ($(window).width() < 768) {
+if ($(window).width() < 992) {
 		$('.navbar-nav').removeClass('d-none', $(this).scrollTop() >= 0);
 		$('.main-nav-wrapper').addClass('bg-light');
 	}

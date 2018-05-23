@@ -3,7 +3,7 @@ var data = {
     labels: ["Favorable M-Factor", "Female", "Non-Smoker"],
     datasets: [
         {
-            label: "Increased Annual Life Insurance Profit Potential Per Policy1",
+            label: "Increased Annual Life Policy1",
             backgroundColor: ["#5590cc", "#ec2a90", "#4d4d4d"],
             borderWidth: 2,
             hoverBackgroundColor: "rgba(255,99,132,0.4)",

@@ -8,6 +8,8 @@
 
 		<div class="col-12 d-flex align-items-center justify-content-center">
 
+			<div class="table-responsive">
+
 			<table class="table">
 
 				<thead>	
@@ -52,6 +54,8 @@
 				</tbody>
 
 			</table>
+
+		</div>
 
 		</div>
 

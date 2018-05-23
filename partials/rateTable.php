@@ -15,6 +15,8 @@
 
 		<div class="col-12 d-flex align-items-center">
 
+			<div class="table-responsive">
+
 			<table class="table">
 
 				<thead>	
@@ -23,14 +25,14 @@
 
 						<th scope="col">How to Qualify</th>
 
-						<th scope="col">Estimated Average<br>
-							Savings (%)<br>
-							with a negative M-Factor<br>
+						<th scope="col">Estimated Average
+							Savings (%)
+							with a negative M-Factor
 						Score </th>
 
-						<th scope="col">Estimated Average<br>
-							Savings (%)<br>
-							with a positive M-Factor<br>
+						<th scope="col">Estimated Average
+							Savings (%)
+							with a positive M-Factor
 						Score </th>
 
 					</tr>
@@ -88,6 +90,8 @@
 			</table>
 
 		</div>
+
+	</div>
 
 	</div>
 

@@ -1,8 +1,8 @@
 <!-- Begin Quote Carousel -->
 
-<div class="bg-white outer-element">
+<div class="bg-white quote-carousel-outer outer-element">
 
-	<div class="quote-carousel-outer">
+	<div class="">
 
 		<div class="theme-bg text-white text-center">
 
@@ -33,13 +33,13 @@
 										<div class="quote-inner">
 
 											<p>
-												"<span class="theme-color">Our business</span> was founded to evolve the status quo of the life insurance industry with innovative products and services."
+												“I'm so happy to get the life insurance rate I <span class="theme-color">earned</span> instead of what is convenient for the insurance companies.”
 											</p>
 
 										</div>
 
 										<div class="byline">
-											- Jon Sabes, CEO
+											- Jeremy F.
 										</div>
 
 									</div>
@@ -53,13 +53,13 @@
 										<div class="quote-inner">
 
 											<p>
-												“I believe in this product so much, I tattooed the <span class="theme-color">Life Epigenetics</span> logo on my back”
+												"I tried applying for life insurance through 3 other companies and Life Hero was <span class="theme-color">the best experience</span> by far!"
 											</p>
 
 										</div>
 
 										<div class="byline">
-											- Dr. Chen (probably)
+											- Andrea J.
 										</div>
 
 									</div>
@@ -73,13 +73,13 @@
 										<div class="quote-inner">
 
 											<p>
-												"I love floors, they never let you down.  They are so underappreciated.  Not as much as <span class="theme-color">tunnels</span>, though.  Just try one."
+												"My rate was <span class="theme-color">30% less</span> than it would have been anywhere else, that means quite a lot to me!"
 											</p>
 
 										</div>
 
 										<div class="byline">
-											- Elon Musk, Tesla CEO
+											- Ted M.
 										</div>
 
 									</div>

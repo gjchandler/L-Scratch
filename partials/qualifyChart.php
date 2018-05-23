@@ -14,9 +14,9 @@
 
 		</div>
 
-		<div class="col-12 col-md-8 offset-md-2 d-flex align-items-center">
+		<div class="col-12 col-md-8 offset-md-2 d-flex align-items-center chart-col">
 
-			<canvas id="myChart" width="400" height="200"></canvas>
+			<canvas id="myChart"></canvas>
 
 			<script src="/js/profitChart.js"></script>
 

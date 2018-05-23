@@ -1,6 +1,6 @@
 <!-- Begin Quote Bar -->
 
-<div class="quote-bar quote-bar d-none hidden-sm-down">
+<div class="quote-bar quote-bar d-none">
 
 <div class="quote-bar-wrapper fixed-top">
 
@@ -8,11 +8,11 @@
 
     <div class="row">
 
-      <div class="col-sm-12 col-md-4">
+      <div class="col-sm-12 col-md-12 col-lg-4">
 
       </div>
 
-      <div class="col-sm-12 col-md-8 d-flex align-items-center bg-light" style="justify-content:flex-end;">
+      <div class="col-sm-12 col--md-12 col-lg-8 d-flex align-items-center bg-light" style="justify-content:flex-end;">
 
        <span> Get a free quote now </span>
 

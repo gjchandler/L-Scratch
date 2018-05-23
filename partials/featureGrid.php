@@ -72,7 +72,7 @@
 
 						<div class="mockup">
 
-							<img src="images/mockup-feature.png" alt="">
+							<img src="images/horvath.jpg" alt="">
 
 						</div>
 

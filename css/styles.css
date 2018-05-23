@@ -42,8 +42,21 @@ ul {
 img {
   max-width: 100%; }
 
+table {
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3); }
+
+button, input[type=submit] {
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
+  transition: .5s ease; }
+
+button:hover, input[type=submit]:hover, .btn:hover {
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4); }
+
 .container {
   padding: 5rem 0; }
+
+.outer-element {
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.4); }
 
 .outer-element:nth-of-type(n+6):nth-of-type(even) {
   background-color: #f1f1f1; }
@@ -62,12 +75,6 @@ img {
 
 .theme-bg {
   background-color: #25387d; }
-
-.outer-element {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
-
-button:hover, input[type=submit]:hover, .btn:hover {
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4); }
 
 .flat-section .section-content {
   width: 100%;
@@ -105,12 +112,15 @@ div .container:nth-of-type(2) {
 .bg-white {
   background-color: #f1f1f1 !important; }
 
+.chartjs-render-monitor {
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3); }
+
 .title {
   padding: 1rem 0; }
 
 /* Version Menu Region */
 .version-menu .jumbotron {
-  background-image: url(/images/bg.jpg);
+  background-image: url("/images/bg.jpg");
   background-size: cover;
   position: relative;
   margin-bottom: 0; }
@@ -120,6 +130,7 @@ div .container:nth-of-type(2) {
     padding: 2rem;
     position: relative;
     list-style-type: none;
+    list-style-image: none;
     margin-bottom: 0; }
     .version-menu .jumbotron ul li {
       margin-bottom: 2rem; }
@@ -208,6 +219,48 @@ div .container:nth-of-type(2) {
   height: 30px;
   width: 30px; }
 
+/* Hero arrow region */
+@-webkit-keyframes uparrow {
+  0% {
+    -webkit-transform: translateY(0);
+    opacity: 0.4; }
+  100% {
+    -webkit-transform: translateY(-0.4em);
+    opacity: 0.9; } }
+
+@-webkit-keyframes downarrow {
+  0% {
+    -webkit-transform: translateY(0);
+    opacity: 0.4; }
+  100% {
+    -webkit-transform: translateY(0.4em);
+    opacity: 0.9; } }
+
+.arrow {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0 2em;
+  display: block;
+  height: 0;
+  margin: 10em auto;
+  opacity: 0.4;
+  text-indent: -9999px;
+  transform-origin: 50% 50%;
+  width: 0;
+  position: absolute;
+  bottom: -138px;
+  left: 50%;
+  margin-left: -2em;
+  z-index: 10; }
+
+.up {
+  -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
+  border-bottom: 2em solid #00c2f9; }
+
+.down {
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+  border-top: 2em solid #00c2f9; }
+
 /* Hero form region */
 .hero-form {
   background-color: #f1f1f1;
@@ -295,25 +348,27 @@ div .container:nth-of-type(2) {
 /* Rate Table Region */
 .rate-table {
   padding: 0; }
-  .rate-table .table {
+  .rate-table table {
     width: 66%;
     margin: 1rem auto; }
-    .rate-table .table thead {
+    .rate-table table thead {
       background-color: #544fd9;
       color: #f1f1f1; }
-    .rate-table .table tbody td {
+    .rate-table table tbody td {
       border-left: 1px solid #dee2e6;
       text-align: center;
       font-weight: 700;
       background-color: #fff; }
-    .rate-table .table tbody th {
+    .rate-table table tbody th {
       background-color: #fff; }
 
 /* Qualify Chart region */
 .qualify-chart {
   padding: 0; }
   .qualify-chart #myChart {
-    background-color: #fff; }
+    background-color: #fff;
+    width: 400px;
+    height: 200px; }
 
 /* Mission Region */
 .mission {
@@ -362,7 +417,8 @@ div .container:nth-of-type(2) {
 .image-full-width div {
   background-size: cover;
   padding-bottom: 400px;
-  background-position: center; }
+  background-position: center;
+  background-image: url("/images/blue-fullwidth.jpg"); }
 
 /* Team Region */
 .team.outer-element {
@@ -402,15 +458,17 @@ div .container:nth-of-type(2) {
   color: #f1f1f1; }
 
 /* CTA white region */
-.cta-white {
-  line-height: 200%; }
-  .cta-white button {
-    margin-bottom: 1rem;
-    box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.45);
-    transition: .5s ease;
-    background-color: #ec2a90; }
-  .cta-white button:hover {
-    background-color: #25387d; }
+.cta-white h2, .cta-white h3 {
+  line-height: 275%; }
+
+.cta-white button {
+  margin-bottom: 1rem;
+  box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.45);
+  transition: .5s ease;
+  background-color: #ec2a90; }
+
+.cta-white button:hover {
+  background-color: #25387d; }
 
 /* Evolution Region */
 .evolution i {
@@ -418,27 +476,31 @@ div .container:nth-of-type(2) {
   margin-bottom: 2rem;
   color: #25387d; }
 
-.services .col-md-4 {
-  height: 300px;
-  transition: .5s ease;
-  padding: 0 2rem;
-  z-index: 1; }
+.services .row:hover > .col-md-4 {
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5); }
 
-.services .col-md-4:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
-  z-index: 10; }
-
-.services i {
-  font-size: 3rem;
-  margin-bottom: 2rem; }
-
-.services .item p {
-  opacity: 0;
-  transition: 1s ease; }
-
-.services .item:hover p {
-  opacity: 1; }
+.services .row {
+  transition: ease .5s; }
+  .services .row .col-md-4 {
+    height: 300px;
+    transition: .5s ease;
+    padding: 0 2rem;
+    z-index: 1; }
+  .services .row .col-md-4:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
+    z-index: 10;
+    -webkit-filter: brightness(1);
+    filter: brightness(1); }
+  .services .row i {
+    font-size: 3rem;
+    margin-bottom: 2rem; }
+  .services .row .item p {
+    opacity: 0;
+    transition: 1s ease; }
+  .services .row .item:hover p {
+    opacity: 1; }
 
 .services .theme-bg h3, .services .theme-bg p, .services .theme-bg i {
   color: #f1f1f1; }
@@ -540,7 +602,8 @@ div .container:nth-of-type(2) {
     background-color: #ebe8e8;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
-    height: 300px; }
+    height: 300px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3); }
     .feature-grid .col-features .col-feature .fa {
       font-size: 3rem;
       margin-bottom: 2.5rem; }
@@ -574,6 +637,9 @@ div .container:nth-of-type(2) {
     transition: all 0.5s ease-in-out; }
 
 /* Quote Carousel region */
+.quote-carousel-outer.outer-element {
+  box-shadow: none; }
+
 .quote-carousel-outer {
   padding-top: 180px; }
   .quote-carousel-outer .container {
@@ -607,7 +673,8 @@ div .container:nth-of-type(2) {
     height: 300px;
     background-color: #f1f1f1;
     padding: 30px;
-    transition: all 0.3s ease-in-out; }
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3); }
     .work-process .section-content .process-single .badge {
       position: absolute;
       top: 15px;
@@ -702,6 +769,16 @@ div .container:nth-of-type(2) {
     display: none !important; }
   /* Version Menu Region */
   /* Hero & Nav area */
+  .main-nav-wrapper {
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.4); }
+    .main-nav-wrapper .container {
+      padding: 0; }
+    .main-nav-wrapper nav {
+      padding: 0; }
+      .main-nav-wrapper nav .navbar-nav {
+        padding-bottom: 1rem; }
+    .main-nav-wrapper .logo-wrap img {
+      width: 70px; }
   .quote-bar {
     display: none; }
   .cta-blue .jumbotron {
@@ -713,20 +790,29 @@ div .container:nth-of-type(2) {
   .overpay .col-md-4 {
     margin-bottom: 3rem; }
   /* Rate Table Region */
+  .rate-table table {
+    width: inherit; }
   /* Qualify Chart region */
   /* Mission Region */
   /* Gene table region */
+  .gene-table table {
+    width: inherit; }
   /* Headline region */
   /* Venn Region */
   /* Mortality Region */
   /* Partnered Region */
+  /* Image Full Width region */
   /* Team Region */
+  .team .team-columns .team-inner {
+    margin: 1.5rem auto !important; }
   /* Mission Region */
   /* CTA white region */
   /* Evolution Region */
   /* Crazy video area set up */
   /* Report region */
   /* Freature Grid Region */
+  .feature-grid .col-features .col-feature {
+    height: 400px; }
   /* Quote Carousel region */
   /* Work process region */
   /* Quote CTA Region */
@@ -749,6 +835,7 @@ div .container:nth-of-type(2) {
   /* Venn Region */
   /* Mortality Region */
   /* Partnered Region */
+  /* Image Full Width region */
   /* Team Region */
   /* Mission Region */
   /* CTA white region */
@@ -769,6 +856,11 @@ div .container:nth-of-type(2) {
   .row {
     margin-left: 0;
     margin-right: 0; }
+  h2 {
+    padding: 0 1rem; }
+  h4 {
+    margin-bottom: 2rem;
+    margin-top: 2.5rem; }
   /* Version Menu Region */
   /* Hero & Nav area */
   /* Hero form region */
@@ -783,16 +875,55 @@ div .container:nth-of-type(2) {
   /* Venn Region */
   /* Mortality Region */
   /* Partnered Region */
+  .image-full-width div {
+    background-position-x: right;
+    background-image: url("/images/blue-fullwidth-mobile.jpg"); }
+  /* Image Full Width region */
   /* Team Region */
   .team .team-columns .team-inner {
-    margin: .75rem auto; }
+    margin: 1.5rem auto !important; }
   /* Mission Region */
   /* CTA white region */
+  .cta-white button {
+    margin: 1rem 0 2rem; }
+  .cta-white h2, .cta-white h3 {
+    line-height: 150%; }
   /* Evolution Region */
+  /* Services Region */
+  .services .container-fluid {
+    padding: 5rem 1rem; }
+  .services .row .col-md-4 {
+    margin: 2rem 0rem; }
   /* Crazy video area set up */
+  .videos .video-btn {
+    left: 28px; }
+  .videos .waves {
+    left: -18px; }
   /* Report region */
+  .reports {
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 120%; }
+    .reports .container-fluid {
+      padding: 0; }
+      .reports .container-fluid .row .row {
+        padding: 140px 1rem; }
+        .reports .container-fluid .row .row h2 {
+          padding: 0; }
+      .reports .container-fluid .background {
+        height: 300px; }
+      .reports .container-fluid .col-sm-12 {
+        padding: 0; }
   /* Freature Grid Region */
+  .feature-grid .mockup {
+    display: none; }
   /* Quote Carousel region */
+  .quote-carousel-outer #carouselExampleIndicators .quote {
+    padding: 2rem; }
+    .quote-carousel-outer #carouselExampleIndicators .quote .quote-inner p {
+      font-size: 1.25rem; }
   /* Work process region */
+  .work-process .section-content .process-single {
+    margin: 2rem auto; }
   /* Quote CTA Region */
   /* Footer Region */ }

@@ -24,25 +24,25 @@
 
       <li class="nav-item active">
 
-        <a class="nav-link" href="#">Life Insurance</a>
+        <a class="nav-link" href="#">What We Do</a>
 
       </li>
 
       <li class="nav-item">
 
-        <a class="nav-link" href="#">Research</a>
+        <a class="nav-link" href="#">How It Works</a>
 
       </li>
 
       <li class="nav-item">
 
-        <a class="nav-link" href="#">Mission</a>
+        <a class="nav-link" href="#">Who We Are</a>
 
       </li>
     
        <li class="nav-item">
 
-        <a class="nav-link" href="#">Get Your Quote</a>
+        <a class="nav-link" href="#">Get A Quote</a>
 
       </li>
 

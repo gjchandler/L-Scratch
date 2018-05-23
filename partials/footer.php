@@ -14,7 +14,8 @@
 					<li>COMPANY NAME</li>
 					<li>PHONE</li>
 					<li>ADDRESS</li>
-					<li>Questions, comments? Email address</li>
+					<li>Questions, comments?</li> 
+					<li>Email address</li>
 				</ul>
 
 			</div>
