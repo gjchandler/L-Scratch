@@ -39,10 +39,16 @@
         <a class="nav-link" href="#">Who We Are</a>
 
       </li>
-    
-       <li class="nav-item">
 
-        <a class="nav-link" href="#">Get A Quote</a>
+      <li class="nav-item divider important">
+
+        <a class="nav-link" href="#">Sign In</a>
+
+      </li>
+    
+       <li class="nav-item important">
+
+        <a class="nav-link" href="https://ro77mh.axshare.com/#c=2">Get A Quote</a>
 
       </li>
 

@@ -10,7 +10,7 @@
 
                 <div class="row d-flex flex-row-reverse">
 
-                    <div class="col-sm-12 col-md-8">
+                    <div class="col-sm-12 col-md-12 col-lg-8">
 
                         <h2>Unique Individuals Demand Exclusive Reports</h2>
                         <div class="h-10"></div>

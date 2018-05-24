@@ -8,7 +8,7 @@
 
 		<div class="col-sm-12 col-md-7 col-lg-7 d-flex align-items-center justify-content-center">
 
-			<img src="images/venn.png" alt="">			
+			<img src="images/dna-circle.png" alt="">			
 
 		</div>
 

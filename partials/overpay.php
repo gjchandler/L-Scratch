@@ -22,7 +22,7 @@
 			<h4>Individual Rates</h4>
 
 			<p>Save 30% or more based on your unique
-			health and wellness attributes</p>
+			health and wellness attributes. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
 			<p>
 				<a href="">Learn more</a>
@@ -36,7 +36,7 @@
 
 			<h4>Accurate Underwriting</h4>
 			<p>No more smoking amnesia, we can prove your
-			health and wellness</p>
+			health and wellness. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 			<p>
 				<a href="">Learn more</a>
 			</p>

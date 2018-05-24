@@ -37,7 +37,7 @@
 
 		</div>
 
-		 <a href="#" class="arrow down">Down</a>
+		 <div href="#" class="arrow down">Down</div>
 
 		<img src="images/waves.svg" alt="" class="waves">
 

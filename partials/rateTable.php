@@ -9,7 +9,7 @@
 		<div class="col-12 d-flex flex-column text-center">
 
 			<h3 style="text-align:center;">INDIVIDUAL RATES</h3>
-			<p>We can save clients $ with accurate underwriting using advanced science</p>
+			<p>We can save clients $ with accurate underwriting using advanced science.</p>
 
 		</div>
 
