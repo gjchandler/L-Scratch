@@ -101,6 +101,10 @@ div .container:nth-of-type(2){
     padding-top:0;
 }
 
+.outer-element{
+    position:relative;
+}
+
 .outer-element:first-of-type{
     box-shadow:0 0px 6px rgba(0,0,0,0.4);
 }
@@ -109,16 +113,30 @@ div .container:nth-of-type(2){
      box-shadow:inset 0 6px 6px rgba(0,0,0,0.4);
 }
 
-.outer-element:nth-of-type(n+6):nth-of-type(even){
+ .outer-element:nth-of-type(n+6):nth-of-type(even){
     background-color:$white;
-    box-shadow:0 -6px 6px rgba(0,0,0,0.4);
+   // box-shadow:0 -6px 6px rgba(0,0,0,0.4);
     z-index:5;
 }
 
 .outer-element:nth-of-type(n+6):nth-of-type(odd){
     background-color:$light-gray2;
-    box-shadow:inset 0 6px 6px rgba(0,0,0,0.4);
+   // box-shadow:inset 0 6px 6px rgba(0,0,0,0.4);
     z-index:1;
+} 
+
+.outer-element:nth-of-type(n+6):nth-of-type(even):before, .outer-element:nth-of-type(n+6):nth-of-type(even):after{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: transparent;
+  box-shadow: $inactive-shadow;
+  transform: rotate(-3deg);
 }
 
 .jumbotron{
