@@ -47,7 +47,7 @@
 
 						<th scope="row">Price</th>
 						<td>The first human genome was first sequenced in 2003 for 2.7 billion, and can now be done for about $1,200 parts can now be sequenced for under $200</td>
-						<td>0Can now be done for about $100 (in volume) using similar technologies, but analysing the epigenome</td>
+						<td>Can now be done for about $100 (in volume) using similar technologies, but analysing the epigenome</td>
 
 					</tr>
 

@@ -19,7 +19,6 @@
   <?php  
   include 'partials/topNavSticky.php'; 
   include 'partials/quoteBar.php'; 
-  
   include 'partials/versionMenu.php';
   include 'partials/footer.php';
   ?>

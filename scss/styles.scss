@@ -85,7 +85,8 @@ table{
 
 button, input[type=submit]{
     box-shadow:$inactive-shadow;
-    transition:.5s ease;
+    transition:.5s ease; 
+    background-color:$main-color;
 }
 
 button:hover,input[type=submit]:hover,.btn:hover{
@@ -126,20 +127,6 @@ div .container:nth-of-type(2){
     z-index:1;
 } 
 
-/* .outer-element:nth-of-type(n+6):nth-of-type(even):before, .outer-element:nth-of-type(n+6):nth-of-type(even):after{
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: transparent;
-  box-shadow: $inactive-shadow;
-  transform: rotate(-3deg);
-} */
-
 .jumbotron{
     border-radius:0;
 }
@@ -163,6 +150,12 @@ div .container:nth-of-type(2){
     clear: both;
 }
 
+.btn-primary{
+    background-color:$main-color;
+    color:$white;
+    border:none;
+}
+
 .sec-title .title:after {
     content: '';
     display: block;
@@ -171,8 +164,6 @@ div .container:nth-of-type(2){
     background-color: $main-color;
     margin: 20px auto 0;
 }
-
-
 
 .bg-blue-grad{
 	background: linear-gradient(45deg, rgba(229, 226, 225, 1) 0%, rgba(229, 226, 225, 1) 20%, rgba(229, 226, 225, 1) 100%);
@@ -507,7 +498,7 @@ div .container:nth-of-type(2){
 .overpay{
 
     .container{
-        border-top:1px solid $light-gray5;
+        //border-top:1px solid $light-gray5;
     }
 
     img{
@@ -773,8 +764,8 @@ div .container:nth-of-type(2){
 .services{
 
     .row:hover > .col-md-4{
-      -webkit-filter: brightness(.8) blur(5px);
-      filter: brightness(.8) blur(5px);
+      -webkit-filter: brightness(.8);
+      filter: brightness(.8);
   }
 
   .row{
@@ -926,21 +917,6 @@ a{
     background-repeat: no-repeat;
     background-size: 45%;
     background-color:#dadada;
-
-    a{
-        background-color:$main-color;
-        color:$white;
-        font-size:0.9rem;
-        letter-spacing:2px;
-        text-transform:uppercase;
-        transition:.5s ease;
-        box-shadow:$inactive-shadow;
-    }
-
-    a:hover{
-        background-color:$teal;
-        box-shadow:$active-shadow;
-    }
 
     .flex-row-reverse>div{
         padding-right:3rem;

@@ -16,9 +16,15 @@ $(window).scroll(function(){
 if ($(window).width() < 992) {
 		$('.navbar-nav').removeClass('d-none', $(this).scrollTop() >= 0);
 		$('.main-nav-wrapper').addClass('bg-light');
+		console.log('small');
 	}
 
 //Quote bar visibility toggle
 $(window).scroll(function(){
 	$('.quote-bar').toggleClass('d-none', $(this).scrollTop() < 800);
 });
+
+//Get tooltips running
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

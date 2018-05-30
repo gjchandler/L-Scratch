@@ -15,7 +15,9 @@
                         <h2>Unique Individuals Demand Exclusive Reports</h2>
                         <div class="h-10"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        <a href="#" class="btn medium colorful hover-transparent-colorful">Read More</a>
+                        <a href="https://ro77mh.axshare.com/#c=2"> 
+                            <button type="button" class="btn btn-primary">Read More</button> 
+                        </a>
 
                     </div>
 
