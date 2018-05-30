@@ -36,7 +36,7 @@
   include 'partials/partnered.php';
   include 'partials/imgFullWidth.php';
   include 'partials/lotsaDots.php';
-  include 'partials/pieChart.php';
+  //include 'partials/pieChart.php';
   include 'partials/sequencing.php';
   include 'partials/team.php';
   include 'partials/mission.php';

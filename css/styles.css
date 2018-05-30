@@ -85,35 +85,16 @@ table {
 .Rtable-cell {
   margin: -3px 0 0 -3px;
   background-color: white;
-  border-color: #e2e6e9; }
-
-.Rtable-cell--dark {
-  background-color: slategrey;
-  border-color: #5a6673;
-  color: white; }
-
-.Rtable-cell--medium {
-  background-color: #b8c0c8;
-  border-color: #a9b3bc; }
-
-.Rtable-cell--light {
-  background-color: white;
-  border-color: #e2e6e9; }
-
-.Rtable-cell--highlight {
-  background-color: lightgreen;
-  border-color: #64e764; }
-
-.Rtable-cell--alert {
-  background-color: darkorange;
-  border-color: #cc7000;
-  color: white; }
+  border-color: #e2e6e9;
+  font-weight: 700; }
 
 .Rtable-cell--head {
   background-color: #544fd9;
-  color: #f1f1f1; }
+  color: #f1f1f1;
+  font-weight: 700; }
   .Rtable-cell--head h1, .Rtable-cell--head h2, .Rtable-cell--head h3, .Rtable-cell--head h4, .Rtable-cell--head h5, .Rtable-cell--head h6, .Rtable-cell--head p {
-    color: #f1f1f1; }
+    color: #f1f1f1;
+    font-weight: 700; }
 
 .Rtable-cell--foot {
   background-color: #b8c0c8;

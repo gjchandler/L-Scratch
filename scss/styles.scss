@@ -127,38 +127,18 @@ table{
   margin: -3px 0 0 -3px;
   background-color: white;
   border-color: #e2e6e9;
+  font-weight:700;
 }
 
-.Rtable-cell--dark {
-  background-color: slategrey;
-  border-color: #5a6673;
-  color: white;
-}
-
-.Rtable-cell--medium {
-  background-color: #b8c0c8;
-  border-color: #a9b3bc;
-}
-.Rtable-cell--light {
-  background-color: white;
-  border-color: #e2e6e9;
-}
-.Rtable-cell--highlight {
-  background-color: lightgreen;
-  border-color: #64e764;
-}
-.Rtable-cell--alert {
-  background-color: darkorange;
-  border-color: #cc7000;
-  color: white;
-}
 
 .Rtable-cell--head {
   background-color: $purple;
   color:$white;
+  font-weight:700;
 
   h1,h2,h3,h4,h5,h6,p{
     color:$white;
+    font-weight:700;
   }
 }
 
