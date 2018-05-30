@@ -91,6 +91,38 @@
 
 		</div>
 
+		</div>
+
+		<div class="col-12 d-flex align-items-center">
+			
+<!-- <div class="Rtable Rtable--3cols Rtable--collapse">
+
+  <div style="order:0;" class="Rtable-cell Rtable-cell--head">Eddard Stark</div>
+  <div style="order:1;" class="Rtable-cell">Has a sword named Ice</div>
+  <div style="order:2;" class="Rtable-cell">No direwolf</div>
+  <div style="order:3;" class="Rtable-cell"><strong>Lord of Winterfell</strong></div>
+  <div style="order:4;" class="Rtable-cell">No direwolf</div>
+  <div style="order:5;" class="Rtable-cell">No direwolf</div>
+
+  <div style="order:0;" class="Rtable-cell Rtable-cell--head">Jon Snow</div>
+  <div style="order:1;" class="Rtable-cell">Has a sword named Longclaw</div>
+  <div style="order:2;" class="Rtable-cell">Direwolf: Ghost</div>
+  <div style="order:3;" class="Rtable-cell"><strong>Knows nothing</strong></div>
+    <div style="order:4;" class="Rtable-cell">No direwolf</div>
+  <div style="order:5;" class="Rtable-cell">No direwolf</div>
+
+  <div style="order:0;" class="Rtable-cell Rtable-cell--head">Jon Snow</div>
+  <div style="order:1;" class="Rtable-cell">Has a sword named Longclaw</div>
+  <div style="order:2;" class="Rtable-cell">Direwolf: Ghost</div>
+  <div style="order:3;" class="Rtable-cell"><strong>Knows nothing</strong></div>
+    <div style="order:4;" class="Rtable-cell">No direwolf</div>
+  <div style="order:5;" class="Rtable-cell">No direwolf</div>
+
+</div> -->
+
+
+		
+
 	</div>
 
 	</div>

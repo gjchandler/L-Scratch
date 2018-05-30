@@ -24,10 +24,10 @@
 				<div class="col-12 col-md-5 d-flex align-items-center">
 
 				<ul>
-					<li><a href="/prod1.php" data-toggle="tooltip" data-original-title="Default tooltip">Production 1</a></li>
-					<li><a href="/practial1.php">Practical Usage Example 1</a></li>
-					<li><a href="https://ro77mh.axshare.com/#c=2">Form UX Demo</a></li>
-					<li><a href="/stage.php">Staging</a></li>
+					<li><a href="/prod1.php" data-toggle="tooltip" data-original-title="A full list of branded and functioning website components (the kitchen sink)" data-placement="left">Production 1</a></li>
+					<li><a href="/practial1.php" data-toggle="tooltip" data-original-title="How you can use a few components to make a website" data-placement="left">Practical Usage Example 1</a></li>
+					<li><a href="https://ro77mh.axshare.com/#c=2" data-toggle="tooltip" data-original-title="What questions will be asked and when" data-placement="left">Form UX Demo</a></li>
+					<li><a href="/stage.php" data-toggle="tooltip" data-original-title="A remixed component list" data-placement="left">Staging</a></li>
 				</ul>
 
 				</div>
@@ -40,10 +40,6 @@
 
 </div>
 
-<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-	</script>
+
 
 <!-- End Version Menu -->	

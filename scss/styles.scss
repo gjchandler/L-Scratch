@@ -79,10 +79,116 @@ img{
 	max-width:100%;
 }
 
+//table formatting
+
 table{
     box-shadow:$inactive-shadow;
 }
 
+.Rtable {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 3em 0;
+  padding: 0;
+}
+.Rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.8em 1.2em;
+  overflow: hidden;
+  list-style: none;
+  border: solid 3px white;
+  background: rgba(112, 128, 144, 0.2);
+}
+
+.Rtable--2cols > .Rtable-cell {
+  width: 50%;
+}
+.Rtable--3cols > .Rtable-cell {
+  width: 33.33%;
+}
+.Rtable--4cols > .Rtable-cell {
+  width: 25%;
+}
+.Rtable--5cols > .Rtable-cell {
+  width: 20%;
+}
+.Rtable--6cols > .Rtable-cell {
+  width: 16.6%;
+}
+
+.Rtable {
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+.Rtable-cell {
+  margin: -3px 0 0 -3px;
+  background-color: white;
+  border-color: #e2e6e9;
+}
+
+.Rtable-cell--dark {
+  background-color: slategrey;
+  border-color: #5a6673;
+  color: white;
+}
+
+.Rtable-cell--medium {
+  background-color: #b8c0c8;
+  border-color: #a9b3bc;
+}
+.Rtable-cell--light {
+  background-color: white;
+  border-color: #e2e6e9;
+}
+.Rtable-cell--highlight {
+  background-color: lightgreen;
+  border-color: #64e764;
+}
+.Rtable-cell--alert {
+  background-color: darkorange;
+  border-color: #cc7000;
+  color: white;
+}
+
+.Rtable-cell--head {
+  background-color: $purple;
+  color:$white;
+
+  h1,h2,h3,h4,h5,h6,p{
+    color:$white;
+  }
+}
+
+.Rtable-cell--foot {
+  background-color: #b8c0c8;
+  border-color: #a9b3bc;
+}
+
+@media all and (max-width: 500px) {
+  .Rtable--collapse {
+    display: block;
+  }
+  .Rtable--collapse > .Rtable-cell {
+    width: 100% !important;
+  }
+  .Rtable--collapse > .Rtable-cell--foot {
+    margin-bottom: 1em;
+  }
+}
+.no-flexbox .Rtable {
+  display: block;
+}
+.no-flexbox .Rtable > .Rtable-cell {
+  width: 100%;
+}
+.no-flexbox .Rtable > .Rtable-cell--foot {
+  margin-bottom: 1em;
+}
+
+//General Button Formatting
 button, input[type=submit]{
     box-shadow:$inactive-shadow;
     transition:.5s ease; 
@@ -196,6 +302,20 @@ div .container:nth-of-type(2){
 
 .title{
     padding:1rem 0;
+}
+
+.tooltip{
+
+    .arrow{
+        margin:inherit;
+        background-image:none;
+        top:inherit;
+        bottom:inherit;
+        left:inherit;
+        right:0;
+        opacity:1;
+        display:none;
+    }
 }
 
 /* Version Menu Region */
@@ -314,6 +434,10 @@ div .container:nth-of-type(2){
         margin-left:1rem;
         background-color:$pink;
         border:none;
+    }
+
+    button:hover{
+        background-color:$main-color;
     }
 }
 

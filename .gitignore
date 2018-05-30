@@ -6,6 +6,8 @@ node_modules
 
 sftp-config.json
 
+deployment-config.json
+
 understrap.zip
 
 dist
