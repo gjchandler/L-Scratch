@@ -18,7 +18,7 @@
 
 		<div class="row">
 
-			<div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center text">
+			<div class="col-sm-12 col-md-6 col-lg-8 d-flex align-items-center justify-content-center text">
 
 				<div>
 
@@ -31,9 +31,9 @@
 
 			</div>
 
-			<div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
+			<div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center">
 
-				<img src="images/537506538.jpg" alt="">
+				<img src="images/epigenetic-clock.png" alt="">
 
 			</div>
 

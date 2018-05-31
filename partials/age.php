@@ -16,7 +16,7 @@
 
 		<div class="col-12 d-flex align-items-center justify-content-center">
 
-			<img src="images/age.png" alt="">
+			<img src="images/epigenetic-clock-2.png" alt="">
 
 		</div>
 

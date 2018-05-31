@@ -8,7 +8,7 @@
 
 		<div class="col-sm-12 col-md-7 col-lg-7 d-flex align-items-center justify-content-left">
 
-			<img src="images/dots.png" alt="">			
+			<img src="images/insurer.png" alt="">			
 
 		</div>
 

@@ -91,6 +91,7 @@ table{
   margin: 0 0 3em 0;
   padding: 0;
 }
+
 .Rtable-cell {
   box-sizing: border-box;
   flex-grow: 1;
@@ -98,8 +99,17 @@ table{
   padding: 0.8em 1.2em;
   overflow: hidden;
   list-style: none;
-  border: solid 3px white;
+  border: solid 1px white;
   background: rgba(112, 128, 144, 0.2);
+    margin: -3px 0 0 -3px;
+  background-color: white;
+  border-color: #e2e6e9;
+ 
+
+  span{
+    font-weight:700;
+    color:$gray; 
+  }
 }
 
 .Rtable--2cols > .Rtable-cell {
@@ -123,12 +133,6 @@ table{
   top: 3px;
   left: 3px;
 }
-.Rtable-cell {
-  margin: -3px 0 0 -3px;
-  background-color: white;
-  border-color: #e2e6e9;
-  font-weight:700;
-}
 
 
 .Rtable-cell--head {
@@ -143,21 +147,12 @@ table{
 }
 
 .Rtable-cell--foot {
-  background-color: #b8c0c8;
-  border-color: #a9b3bc;
+   background-color: white;
+  border-color: #e2e6e9;
+      padding: 0.8em 1.2em;
 }
 
-@media all and (max-width: 500px) {
-  .Rtable--collapse {
-    display: block;
-  }
-  .Rtable--collapse > .Rtable-cell {
-    width: 100% !important;
-  }
-  .Rtable--collapse > .Rtable-cell--foot {
-    margin-bottom: 1em;
-  }
-}
+
 .no-flexbox .Rtable {
   display: block;
 }
@@ -698,33 +693,40 @@ div .container:nth-of-type(2){
 /* Gene table region */
 .gene-table{
 
-    table{
-        background-color:$white;
+    .Rtable{
 
+        .Rtable-cell--head{
+            background-color:$gray;
+        }
+    }
+
+    /* table{
+        background-color:$white;
+    
         thead{
             color:$white;
             background-color:$gray;
             text-align:center;
-
+    
             th{
                border-left:1px solid $white;
                border-right:1px solid $white;
            }
        }
-
+    
        tbody{
         tr{
             background-color:#fff;
-
-
+    
+    
         }
     }
-
+    
     td{
         border-left:1px solid $white;
         border-right:1px solid $white;
     }
-}
+    } */
 }
 
 /* Headline region */
@@ -1485,6 +1487,10 @@ a{
         margin-bottom:2rem;
         margin-top:2.5rem;
     }
+    /* Responsive table styling */
+    .Rtable-cell--foot {
+ margin-bottom:3rem; 
+}
     /* Version Menu Region */
     /* Hero & Nav area */
 
@@ -1630,4 +1636,17 @@ a{
     }
     /* Quote CTA Region */
     /* Footer Region */    
+}
+
+
+@media all and (max-width: 500px) {
+  .Rtable--collapse {
+    display: block;
+  }
+  .Rtable--collapse > .Rtable-cell {
+    width: 100% !important;
+  }
+  .Rtable--collapse > .Rtable-cell--foot {
+    margin-bottom: 3em;
+  }
 }

@@ -27,7 +27,7 @@
 
 					<div class="">
 
-						<?php   include 'partials/heroForm1.php'; ?>
+						<?php if ($_GET['form'] == 2){include 'partials/heroForm2.php';} else {include 'partials/heroForm1.php';} ?>
 
 					</div>
 
@@ -42,8 +42,6 @@
 		<img src="images/waves.svg" alt="" class="waves">
 
 	</div>
-
-
 
 </div>
 

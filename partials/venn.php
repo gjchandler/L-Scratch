@@ -6,13 +6,13 @@
 
 	<div class="row">
 
-		<div class="col-sm-12 col-md-7 col-lg-7 d-flex align-items-center justify-content-center">
+		<div class="col-sm-12 col-md-7 col-lg-6 d-flex align-items-center justify-content-center">
 
-			<img src="images/dna-circle.png" alt="">			
+			<img src="images/epigenetic-underwriting-2.png" alt="">			
 
 		</div>
 
-		<div class="col-sm-12 col-md-5 col-lg-5 d-flex align-items-center justify-content-center text">
+		<div class="col-sm-12 col-md-5 col-lg-6 d-flex align-items-center justify-content-center text">
 
 			<div>
 
