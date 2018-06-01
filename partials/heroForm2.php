@@ -6,7 +6,7 @@
 
 									<h2>Enter Your Information to Get a Quote</h2>
 
-									<div class="form-area">
+									<div class="form-area test class">
 
 										<form id="leadgen">
 
