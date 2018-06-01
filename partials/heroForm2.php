@@ -4,7 +4,7 @@
 
 								<div class="form-wrap">
 
-									<h2>Enter Your Information to Get an Instant Quote</h2>
+									<h2>Enter Your Information to Get a Quote</h2>
 
 									<div class="form-area">
 
