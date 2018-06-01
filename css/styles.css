@@ -406,6 +406,37 @@ div .container:nth-of-type(2) {
     .hero-form .form-area .disclaimer-text-container p {
       font-size: .6rem; }
 
+/* Hero Form Region 2 */
+.hero-form-2 .form-wrap {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 1rem; }
+  .hero-form-2 .form-wrap input, .hero-form-2 .form-wrap select {
+    width: 100%;
+    margin: 0.75rem 0;
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da; }
+  .hero-form-2 .form-wrap .datefield input:focus {
+    outline: none; }
+  .hero-form-2 .form-wrap .datefield input {
+    width: 30%;
+    padding: 0 0.4em;
+    border: none;
+    font-size: 100%;
+    background: none;
+    color: #000; }
+  .hero-form-2 .form-wrap .datefield {
+    display: inline;
+    padding: 0.3em;
+    border: inset 1px #CCC;
+    background: #FFF;
+    border-radius: 4px;
+    color: #666;
+    width: 100%; }
+  .hero-form-2 .form-wrap .datefield * {
+    display: inline-block; }
+
 /* Validation Region */
 .validation {
   border-bottom: 2px solid #5590cc;
@@ -1008,6 +1039,8 @@ div .container:nth-of-type(2) {
     padding: 5rem 1rem; }
   .services .row .col-md-4 {
     margin: 2rem 0rem; }
+  .services .row .item p {
+    opacity: 1; }
   /* Crazy video area set up */
   .videos .video-btn {
     left: 28px; }

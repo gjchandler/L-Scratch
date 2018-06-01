@@ -53,6 +53,7 @@
   ?>
 
   <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/jquery.autotab.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
 

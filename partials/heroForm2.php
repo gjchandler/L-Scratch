@@ -12,7 +12,7 @@
 
 											<div class="row">
 
-												<div class="col-sm-12 col-md-6">
+												<div class="col-sm-12 col-md-12">
 
 													<input type="text" name="Zip Code" placeholder="Zip Code">
 
@@ -27,6 +27,12 @@
 														<option value="3">Prefer not to answer</option>
 
 													</select>
+
+													<div id="date1" class="datefield">
+    <input id="day" type="tel" maxlength="2" placeholder="DD"/> /              
+    <input id="month" type="tel" maxlength="2" placeholder="MM"/>/
+    <input id="year" type="tel" maxlength="4" placeholder="YYYY"/>
+</div>
 
 
 

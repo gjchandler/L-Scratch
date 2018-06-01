@@ -101,15 +101,15 @@ table{
   list-style: none;
   border: solid 1px white;
   background: rgba(112, 128, 144, 0.2);
-    margin: -3px 0 0 -3px;
+  margin: -3px 0 0 -3px;
   background-color: white;
   border-color: #e2e6e9;
- 
+
 
   span{
     font-weight:700;
     color:$gray; 
-  }
+}
 }
 
 .Rtable--2cols > .Rtable-cell {
@@ -143,13 +143,13 @@ table{
   h1,h2,h3,h4,h5,h6,p{
     color:$white;
     font-weight:700;
-  }
+}
 }
 
 .Rtable-cell--foot {
    background-color: white;
-  border-color: #e2e6e9;
-      padding: 0.8em 1.2em;
+   border-color: #e2e6e9;
+   padding: 0.8em 1.2em;
 }
 
 
@@ -193,10 +193,10 @@ div .container:nth-of-type(2){
 }
 
 .outer-element:nth-of-type(5){
-     box-shadow:inset 0 6px 6px rgba(0,0,0,0.4);
+ box-shadow:inset 0 6px 6px rgba(0,0,0,0.4);
 }
 
- .outer-element:nth-of-type(n+6):nth-of-type(even){
+.outer-element:nth-of-type(n+6):nth-of-type(even){
     background-color:$white;
     box-shadow:0 -6px 6px rgba(0,0,0,0.4);
     z-index:5;
@@ -325,7 +325,7 @@ div .container:nth-of-type(2){
         }
     }
 
-   
+
 } 
 
 /* Hero & Nav area */
@@ -470,7 +470,7 @@ div .container:nth-of-type(2){
 
 
 .arrow {
-  
+
   display:block;
   width:4em;
   height:2em;
@@ -572,6 +572,53 @@ div .container:nth-of-type(2){
             p{
                 font-size:.6rem;
             }
+        }
+    }
+
+}
+
+/* Hero Form Region 2 */
+.hero-form-2{
+
+    .form-wrap{
+        background-color:$white;
+        padding:1rem;
+        border-radius:1rem;
+
+        input, select{
+            width:100%;
+            margin:0.75rem 0;
+            padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+            border-radius: 0.25rem;
+            border: 1px solid #ced4da;
+        }
+
+        .datefield input:focus { 
+            outline:none; 
+        }
+
+
+        .datefield input { 
+            width: 30%; 
+            padding: 0 0.4em; 
+            border: none; 
+            font-size: 100%; 
+            background: none;
+            color: #000;            
+        }
+
+        .datefield { 
+            display: inline; 
+            padding: 0.3em; 
+            border: inset 1px #CCC; 
+            background: #FFF; 
+            border-radius: 4px;
+            color: #666;
+            width:100%;
+        }
+
+        .datefield * { 
+            display: inline-block;
         }
     }
 
@@ -883,7 +930,7 @@ div .container:nth-of-type(2){
         transition:.5s ease;
         padding:0 2rem;
         z-index:1;
-         box-shadow:$inactive-shadow;
+        box-shadow:$inactive-shadow;
     }
 
     .col-md-4:hover{
@@ -1197,8 +1244,8 @@ a{
     }
 
     .process-single:hover {
-         box-shadow:$active-shadow;
-    }
+     box-shadow:$active-shadow;
+ }
 }
 }
 
@@ -1489,164 +1536,171 @@ a{
     }
     /* Responsive table styling */
     .Rtable-cell--foot {
- margin-bottom:3rem; 
+     margin-bottom:3rem; 
+ }
+ /* Version Menu Region */
+ /* Hero & Nav area */
+
+ .cta-blue{
+    .jumbotron{
+        .container{
+        }
+    }
 }
-    /* Version Menu Region */
-    /* Hero & Nav area */
 
-    .cta-blue{
-        .jumbotron{
-            .container{
+
+/* Hero form region */
+/* Validation Region */
+/* Press 2 region */
+/* Overpay Region */
+/* Rate Table Region */
+/* Qualify Chart region */
+/* Mission Region */
+/* Gene table region */
+/* Headline region */
+/* Venn Region */
+/* Mortality Region */
+/* Partnered Region */
+.image-full-width{
+    div{
+        background-position-x:right;
+        background-image:url('/images/blue-fullwidth-mobile.jpg');
+    }
+}
+/* Image Full Width region */
+/* Team Region */
+.team{
+
+    .team-columns{
+        .team-inner{
+            margin:1.5rem auto!important;
+            //width:100%;
+        }
+    }
+}
+/* Mission Region */
+/* CTA white region */
+.cta-white{
+
+    button{
+        margin: 1rem 0 2rem;
+    }
+
+    h2,h3{
+        line-height:150%;
+    }
+}
+/* Evolution Region */
+/* Services Region */
+.services{
+
+    .container-fluid{
+        padding:5rem 1rem;;
+    }
+
+    .row{
+
+        .col-md-4{
+            margin:2rem 0rem;
+        }
+
+        .item{
+
+            p{
+                opacity:1;
             }
         }
     }
+}
+/* Crazy video area set up */
+.videos{
 
-
-    /* Hero form region */
-    /* Validation Region */
-    /* Press 2 region */
-    /* Overpay Region */
-    /* Rate Table Region */
-    /* Qualify Chart region */
-    /* Mission Region */
-    /* Gene table region */
-    /* Headline region */
-    /* Venn Region */
-    /* Mortality Region */
-    /* Partnered Region */
-    .image-full-width{
-        div{
-            background-position-x:right;
-            background-image:url('/images/blue-fullwidth-mobile.jpg');
-        }
+    .video-btn{
+        left: 28px; 
     }
-    /* Image Full Width region */
-    /* Team Region */
-    .team{
 
-        .team-columns{
-            .team-inner{
-                margin:1.5rem auto!important;
-                //width:100%;
-            }
-        }
+    .waves{
+        left: -18px;
     }
-    /* Mission Region */
-    /* CTA white region */
-    .cta-white{
+}
+/* Report region */
+.reports{
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 120%;
 
-        button{
-            margin: 1rem 0 2rem;
-        }
-
-        h2,h3{
-            line-height:150%;
-        }
-    }
-    /* Evolution Region */
-    /* Services Region */
-    .services{
-
-        .container-fluid{
-            padding:5rem 1rem;;
-        }
+    .container-fluid{
+        padding:0;
 
         .row{
 
-            .col-md-4{
-                margin:2rem 0rem;
-            }
-        }
-    }
-    /* Crazy video area set up */
-    .videos{
-
-        .video-btn{
-            left: 28px;
-        }
-
-        .waves{
-            left: -18px;
-        }
-    }
-    /* Report region */
-    .reports{
-        background-position-x: center;
-        background-position-y: bottom;
-        background-size: 120%;
-
-        .container-fluid{
-            padding:0;
-
             .row{
+                padding:140px 1rem;
 
-                .row{
-                    padding:140px 1rem;
-
-                    h2{
-                        padding:0;
-                    }
+                h2{
+                    padding:0;
                 }
             }
+        }
 
-            .background{
-                height:300px;
-            }
+        .background{
+            height:300px;
+        }
 
-            .col-sm-12{
-                padding:0;
-            }
+        .col-sm-12{
+            padding:0;
         }
     }
-    /* Freature Grid Region */
+}
+/* Freature Grid Region */
 
-    .feature-grid{
+.feature-grid{
 
-        .mockup{
-            display:none;
-        }
+    .mockup{
+        display:none;
     }
-    /* Quote Carousel region */
-    .quote-carousel-outer{
+}
+/* Quote Carousel region */
+.quote-carousel-outer{
 
-        #carouselExampleIndicators{
+    #carouselExampleIndicators{
 
-            .quote{
-                padding:2rem;
+        .quote{
+            padding:2rem;
 
-                .quote-inner{
+            .quote-inner{
 
-                    p{
-                        font-size:1.25rem;
-                    }
+                p{
+                    font-size:1.25rem;
                 }
             }
         }
     }
-    /* Work process region */
-    .work-process{
+}
+/* Work process region */
+.work-process{
 
-        .section-content{
+    .section-content{
 
-            .process-single{
-                margin:2rem auto;
+        .process-single{
+            margin:2rem auto;
 
-            }
         }
     }
-    /* Quote CTA Region */
-    /* Footer Region */    
+}
+/* Quote CTA Region */
+/* Footer Region */    
 }
 
 
 @media all and (max-width: 500px) {
   .Rtable--collapse {
     display: block;
-  }
-  .Rtable--collapse > .Rtable-cell {
+}
+.Rtable--collapse > .Rtable-cell {
     width: 100% !important;
-  }
-  .Rtable--collapse > .Rtable-cell--foot {
+}
+.Rtable--collapse > .Rtable-cell--foot {
     margin-bottom: 3em;
-  }
+}
 }
