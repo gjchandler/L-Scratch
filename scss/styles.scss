@@ -37,6 +37,7 @@ h1,h2,h3,h4,h5,h6{
 
 p{
     font-family:$p-font;
+    line-height:200%;
 
     span{
         font-size:inherit;
@@ -161,6 +162,19 @@ table{
 }
 .no-flexbox .Rtable > .Rtable-cell--foot {
   margin-bottom: 1em;
+} 
+
+//Blockquote formatting
+blockquote{
+    padding:2.5rem;
+    border-left:.5rem solid $main-color;
+
+    p{
+        font-size:1.5rem;
+        line-height:250%;
+        color:$gray*2;
+        margin-bottom:0;
+    }
 }
 
 //General Button Formatting
@@ -183,7 +197,44 @@ div .container:nth-of-type(2){
     padding-top:0;
 }
 
+//General Content Pages (Not Home)
+
+.page{
+
 .outer-element{
+    position:relative;
+}
+
+.outer-element:first-of-type{
+    box-shadow:0 0px 6px rgba(0,0,0,0.4);
+    position:fixed;
+}
+
+.outer-element:nth-of-type(n+2):nth-of-type(odd){
+    background-color:$white;
+    box-shadow:0 -6px 6px rgba(0,0,0,0.4);
+    z-index:5;
+}
+
+.outer-element:nth-of-type(n+2):nth-of-type(even){
+    background-color:$light-gray2;
+    box-shadow:inset 0 6px 6px rgba(0,0,0,0.4);
+    z-index:1;
+} 
+
+h2,h3,h4,h5,h6{
+    font-weight:300;
+}
+
+h1{
+    margin-bottom:1.5rem;
+}
+
+}
+
+.home{
+
+    .outer-element{
     position:relative;
 }
 
@@ -207,6 +258,8 @@ div .container:nth-of-type(2){
     box-shadow:inset 0 6px 6px rgba(0,0,0,0.4);
     z-index:1;
 } 
+}
+
 
 .jumbotron{
     border-radius:0;
@@ -426,6 +479,18 @@ div .container:nth-of-type(2){
     padding:.5rem 0;
 }
 
+.main-nav-wrapper.theme-bg{
+
+    ul{
+
+        li{
+
+            a{
+                color:$white;
+            }
+        }
+    }
+} 
 
 .main-nav-wrapper{
     transition:500ms ease;
@@ -622,6 +687,14 @@ div .container:nth-of-type(2){
         }
     }
 
+}
+
+/* Standard Page Content */
+.page{
+
+.outer-element:nth-of-type(3){
+    padding-top:100px;
+}
 }
 
 /* Validation Region */
@@ -1343,6 +1416,17 @@ a{
     }
     /* Hero form region */
     /* Validation Region */
+    /* Page Content Region */
+    .page{
+
+        .content{
+
+            img{
+                width:33%;
+                float:right;
+            }
+        }
+    }
     /* Press 2 region */
     /* Overpay Region */
     /* Rate Table Region */
