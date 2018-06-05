@@ -1,6 +1,6 @@
 <!-- Begin Top Nav Sticky -->
 
-<div class="main-nav-wrapper top-nav-sticky fixed-top">
+<div class="main-nav-wrapper top-nav-sticky fixed-top theme-bg">
 
 <div class="container">
 
@@ -10,7 +10,7 @@
 
 <nav class="navbar main-nav navbar-expand-lg ">
 
-  <a class="navbar-brand d-flex align-items-center justify-content-center" href="#"><div class="logo-wrap"><img src="images/logo.png" alt=""></div></a>
+  <a class="navbar-brand d-flex align-items-center justify-content-center" href="/"><div class="logo-wrap"><img src="images/logo.png" alt=""></div></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -20,29 +20,29 @@
 
   <div class="collapse navbar-collapse flex-row-reverse " id="navbarNav">
 
-    <ul class="navbar-nav d-none">
+    <ul class="navbar-nav">
 
       <li class="nav-item active">
 
-        <a class="nav-link" href="#">What We Do</a>
+        <a class="nav-link" href="page.php">What We Do</a>
 
       </li>
 
       <li class="nav-item">
 
-        <a class="nav-link" href="#">How It Works</a>
+        <a class="nav-link" href="page.php">How It Works</a>
 
       </li>
 
       <li class="nav-item">
 
-        <a class="nav-link" href="#">Who We Are</a>
+        <a class="nav-link" href="who-we-are.php">Who We Are</a>
 
       </li>
 
       <li class="nav-item divider important">
 
-        <a class="nav-link" href="#">Sign In</a>
+        <a class="nav-link" href="page.php">Sign In</a>
 
       </li>
     
