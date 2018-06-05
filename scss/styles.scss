@@ -210,6 +210,10 @@ div .container:nth-of-type(2){
     position:fixed;
 }
 
+.outer-element:nth-of-type(3){
+    padding-top:100px;
+}
+
 .outer-element:nth-of-type(n+2):nth-of-type(odd){
     background-color:$white;
     box-shadow:0 -6px 6px rgba(0,0,0,0.4);
@@ -228,6 +232,17 @@ h2,h3,h4,h5,h6{
 
 h1{
     margin-bottom:1.5rem;
+}
+
+.content{
+
+    ul{
+
+        li{
+            color:$gray;
+            line-height:200%;
+        }
+    }
 }
 
 }
@@ -275,6 +290,10 @@ h1{
 
 .theme-bg{
     background-color:$main-color;
+}
+
+.theme-bg-topbar{
+
 }
 
 .flat-section .section-content {
@@ -689,13 +708,7 @@ h1{
 
 }
 
-/* Standard Page Content */
-.page{
 
-.outer-element:nth-of-type(3){
-    padding-top:100px;
-}
-}
 
 /* Validation Region */
 .validation{
@@ -892,6 +905,14 @@ h1{
     }
 }
 
+/* Pie Chart Region */
+.pie-chart{
+
+    canvas{
+        background-color:$white;
+    }
+}
+
 /* Team Region */
 .team.outer-element{
     background-color:$gray!important;
@@ -900,7 +921,7 @@ h1{
         color:$white;
     }
 
-    p{
+    p{ 
         color:$white;    
     }
 
@@ -927,6 +948,7 @@ h1{
                 margin-bottom:0;
                 font-size:.75rem;
                 color:inherit;
+                line-height:120%;
             }
 
             h5{
@@ -1331,7 +1353,7 @@ a{
         padding: 0;
 
         input{
-            border:none;
+            border:1px solid $light-gray;
             padding:1rem;
         }
 

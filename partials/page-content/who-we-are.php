@@ -1,5 +1,5 @@
 <!-- Begin Who We Are Container -->
-<div class="who-we-are outer-element">
+<div class="who-we-are content outer-element">
 
 <div class="container">
 
@@ -30,8 +30,8 @@
 		<h3>Smaller Heading Title</h3>
 
 		<ul>
-			<li>Eu pellentesque mauris placerat at. Aliquam erat volutpat. In fringilla maximus libero eget fermentum.</li>
-			<li>Ut tincidunt, ante sed aliquet elementum, mauris tellus consequat est, lobortis maximus lorem massa quis ex.</li>
+			<li>Eu pellentesque mauris placerat at. Aliquam erat volutpat. In fringilla maximus libero eget.</li>
+			<li>Ut tincidunt, ante sed aliquet elementum, mauris tellus consequat est, lobortis maximus lorem.</li>
 			<li>Suspendisse porttitor arcu quis mauris lacinia pellentesque.</li>
 			<li>Duis diam augue, molestie a fringilla non, porta pellentesque nisi.</li>
 			<li>Donec euismod orci lacus, et suscipit justo tempor at.</li>

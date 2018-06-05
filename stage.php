@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 </head>
-<body>
+<body class="home">
 
   <?php  
   include 'partials/topNavSticky.php'; 
@@ -26,6 +26,7 @@
   include 'partials/videos.php';
   include 'partials/quoteCta.php';
   include 'partials/press2.php';
+
   include 'partials/workProcess.php';
   include 'partials/overpay.php';
   include 'partials/qualifyChart.php';
@@ -38,7 +39,9 @@
   include 'partials/partnered.php';
   include 'partials/imgFullWidth.php';
   //include 'partials/lotsaDots.php';
+  include 'partials/pieChart.php';
   include 'partials/sequencing.php';
+  include 'partials/lineChart.php';
   include 'partials/team.php';
   include 'partials/mission.php';
   include 'partials/rateTable.php';

@@ -91,24 +91,6 @@
 
 							<div class="team-inner">
 
-								<img src="images/team/L_team_Tom_Nodine150x150.jpg" alt="">
-
-								<div class="team-body">
-
-									<h5>Tom Nodine</h5>
-
-									<p >Executive Vice President</p>
-
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class="col-sm-12 col-md-6 col-lg-3">
-
-							<div class="team-inner">
-
 								<img src="images/team/L_team_Bill_Acheson150x150.jpg" alt="">
 
 								<div class="team-body">
@@ -230,6 +212,25 @@
 							</div>
 
 						</div>
+
+						<div class="col-sm-12 col-md-6 col-lg-3">
+
+							<div class="team-inner">
+
+								<img src="http://via.placeholder.com/150x150" alt="">
+
+								<div class="team-body">
+
+									<h5>First &amp; Last Name</h5>
+
+									<p >Title</p>
+
+								</div>
+
+							</div>
+
+						</div>
+
 
 						<div class="col-sm-12 col-md-6 col-lg-3">
 

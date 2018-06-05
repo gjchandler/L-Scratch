@@ -4,7 +4,7 @@ $(window).scroll(function(){
 	if ($(window).width() > 992) {
 		//$('.navbar-nav').toggleClass('d-none', $(this).scrollTop() < 50);
 		$('.main-nav-wrapper').toggleClass('bg-light', $(this).scrollTop() > 50);
-		$('.main-nav-wrapper').toggleClass('theme-bg', $(this).scrollTop() < 50);
+		//$('.main-nav-wrapper').toggleClass('theme-bg', $(this).scrollTop() < 50);
 		$('.main-nav-wrapper').toggleClass('outer-element', $(this).scrollTop() > 50);
 		console.log($(window).width())
 	}else{
