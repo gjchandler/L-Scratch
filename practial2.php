@@ -18,16 +18,8 @@
 
   <?php  
   include 'partials/topNavSticky.php'; 
-  include 'partials/quoteBar.php'; 
-  include 'partials/ctaBlue.php'; 
   include 'partials/overpay.php';
-  include 'partials/mission.php';
-  include 'partials/rateTable.php';
-  include 'partials/imgFullWidth.php';
-  include 'partials/evolution.php';
-  include 'partials/services.php';
-  include 'partials/qualifyChart.php';
-  include 'partials/team.php';
+  include 'partials/reports.php';
   include 'partials/quoteCta.php';
   include 'partials/footer.php';
   ?>
