@@ -1,6 +1,6 @@
 <!-- Begin Top Nav Sticky -->
 
-<div class="main-nav-wrapper top-nav-sticky fixed-top theme-bg">
+<div class="main-nav-wrapper top-nav-sticky fixed-top">
 
 <div class="container">
 
@@ -19,6 +19,8 @@
   </button>
 
   <div class="collapse navbar-collapse flex-row-reverse " id="navbarNav">
+
+    <?php include('quoteBar.php') ?>
 
     <ul class="navbar-nav">
 

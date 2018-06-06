@@ -1,8 +1,8 @@
 <!-- Begin Quote Bar -->
 
-<div class="quote-bar quote-bar d-none">
+<div class="quote-bar quote-bar d-none bg-light">
 
-<div class="quote-bar-wrapper fixed-top">
+<div class="quote-bar-wrapper">
 
   <div class="container">
 

@@ -18,7 +18,6 @@
 
   <?php  
   include 'partials/topNavSticky.php'; 
-  include 'partials/quoteBar.php'; 
   include 'partials/ctaBlue.php'; 
   include 'partials/overpay.php';
   include 'partials/mission.php';
