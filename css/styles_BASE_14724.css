@@ -44,9 +44,6 @@ ul {
 img {
   max-width: 100%; }
 
-canvas {
-  background-color: #fff; }
-
 table {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.35); }
 
@@ -141,29 +138,17 @@ div .container:nth-of-type(2) {
   position: relative; }
 
 .page .outer-element:first-of-type {
-<<<<<<< HEAD
-  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.25);
-=======
-  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.18);
->>>>>>> glen
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.4);
   position: fixed; }
 
 .page .outer-element:nth-of-type(n+2):nth-of-type(odd) {
   background-color: #f1f1f1;
-<<<<<<< HEAD
-  box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.25);
-=======
-  box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.18);
->>>>>>> glen
+  box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.4);
   z-index: 5; }
 
 .page .outer-element:nth-of-type(n+2):nth-of-type(even) {
   background-color: #dedede;
-<<<<<<< HEAD
-  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.25);
-=======
-  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.18);
->>>>>>> glen
+  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.4);
   z-index: 1; }
 
 .page h2, .page h3, .page h4, .page h5, .page h6 {
@@ -176,36 +161,20 @@ div .container:nth-of-type(2) {
   position: relative; }
 
 .home .outer-element:first-of-type {
-<<<<<<< HEAD
-  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.4);
   position: fixed; }
 
 .home .outer-element:nth-of-type(5) {
-  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.25); }
+  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.4); }
 
 .home .outer-element:nth-of-type(n+6):nth-of-type(even) {
   background-color: #f1f1f1;
-  box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.25);
-=======
-  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.18);
-  position: fixed; }
-
-.home .outer-element:nth-of-type(5) {
-  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.18); }
-
-.home .outer-element:nth-of-type(n+6):nth-of-type(even) {
-  background-color: #f1f1f1;
-  box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.18);
->>>>>>> glen
+  box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.4);
   z-index: 5; }
 
 .home .outer-element:nth-of-type(n+6):nth-of-type(odd) {
   background-color: #dedede;
-<<<<<<< HEAD
-  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.25);
-=======
-  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.18);
->>>>>>> glen
+  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.4);
   z-index: 1; }
 
 .jumbotron {
@@ -281,7 +250,7 @@ div .container:nth-of-type(2) {
   position: relative;
   margin-bottom: 0; }
   .version-menu .jumbotron h1 {
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.18); }
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4); }
   .version-menu .jumbotron ul {
     padding: 2rem;
     position: relative;
@@ -294,7 +263,7 @@ div .container:nth-of-type(2) {
         font-size: 1.5rem;
         color: #f1f1f1;
         font-weight: 700;
-        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18); }
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4); }
 
 /* Hero & Nav area */
 .form-cta-2 .col-12:nth-of-type(1) {
@@ -353,11 +322,7 @@ div .container:nth-of-type(2) {
 
 .quote-bar {
   transition: 500ms all ease;
-  padding: 0rem 0;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  right: 0; }
+  padding: .5rem 0; }
 
 .quote-bar .container {
   padding: .5rem 0; }
@@ -367,8 +332,6 @@ div .container:nth-of-type(2) {
 
 .main-nav-wrapper {
   transition: 500ms ease; }
-  .main-nav-wrapper #navbarNav {
-    position: relative; }
   .main-nav-wrapper .container {
     padding: 0rem 0; }
   .main-nav-wrapper ul li {
@@ -655,8 +618,7 @@ div .container:nth-of-type(2) {
     .team.outer-element .team-columns .team-inner p {
       margin-bottom: 0;
       font-size: .75rem;
-      color: inherit;
-      line-height: 130%; }
+      color: inherit; }
     .team.outer-element .team-columns .team-inner h5 {
       margin-bottom: 0;
       font-size: 1.0rem; }
@@ -905,7 +867,7 @@ div .container:nth-of-type(2) {
 .quote-cta .section-content {
   padding: 0; }
   .quote-cta .section-content input {
-    border: 1px solid #dee2e6;
+    border: none;
     padding: 1rem; }
   .quote-cta .section-content input[type=submit] {
     background-color: #25387d;

@@ -141,29 +141,17 @@ div .container:nth-of-type(2) {
   position: relative; }
 
 .page .outer-element:first-of-type {
-<<<<<<< HEAD
-  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.25);
-=======
   box-shadow: 0 0px 6px rgba(0, 0, 0, 0.18);
->>>>>>> glen
   position: fixed; }
 
 .page .outer-element:nth-of-type(n+2):nth-of-type(odd) {
   background-color: #f1f1f1;
-<<<<<<< HEAD
-  box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.25);
-=======
   box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.18);
->>>>>>> glen
   z-index: 5; }
 
 .page .outer-element:nth-of-type(n+2):nth-of-type(even) {
   background-color: #dedede;
-<<<<<<< HEAD
-  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.25);
-=======
   box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.18);
->>>>>>> glen
   z-index: 1; }
 
 .page h2, .page h3, .page h4, .page h5, .page h6 {
@@ -176,17 +164,6 @@ div .container:nth-of-type(2) {
   position: relative; }
 
 .home .outer-element:first-of-type {
-<<<<<<< HEAD
-  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.25);
-  position: fixed; }
-
-.home .outer-element:nth-of-type(5) {
-  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.25); }
-
-.home .outer-element:nth-of-type(n+6):nth-of-type(even) {
-  background-color: #f1f1f1;
-  box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.25);
-=======
   box-shadow: 0 0px 6px rgba(0, 0, 0, 0.18);
   position: fixed; }
 
@@ -196,16 +173,11 @@ div .container:nth-of-type(2) {
 .home .outer-element:nth-of-type(n+6):nth-of-type(even) {
   background-color: #f1f1f1;
   box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.18);
->>>>>>> glen
   z-index: 5; }
 
 .home .outer-element:nth-of-type(n+6):nth-of-type(odd) {
   background-color: #dedede;
-<<<<<<< HEAD
-  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.25);
-=======
   box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.18);
->>>>>>> glen
   z-index: 1; }
 
 .jumbotron {

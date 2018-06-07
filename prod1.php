@@ -18,9 +18,6 @@
 
   <?php  
   include 'partials/topNavSticky.php'; 
-  include 'partials/quoteBar.php'; 
-  //include 'partials/formCta2.php';
-  //include 'partials/topNav.php'; 
   include 'partials/ctaBlue.php'; 
   include 'partials/validation.php'; 
   include 'partials/press2.php';
@@ -36,7 +33,7 @@
   include 'partials/partnered.php';
   include 'partials/imgFullWidth.php';
   include 'partials/lotsaDots.php';
-  //include 'partials/pieChart.php';
+  include 'partials/pieChart.php';
   include 'partials/sequencing.php';
   include 'partials/team.php';
   include 'partials/mission.php';
