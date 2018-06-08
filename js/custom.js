@@ -29,3 +29,6 @@ $(window).scroll(function(){
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
+//Autotab fields go here
+$('#date').autoTab();
